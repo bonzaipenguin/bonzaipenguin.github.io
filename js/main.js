@@ -17,7 +17,7 @@ require.config({
 require( ['model','jquery','underscore','signals'], function (model,$,_,signals) { // first order includes
  require(['controller','ui'], function(controller,ui) { // second order includes
     function init() {
-      $('body').prepend(ui.ui);
+      $('[data-el="portfolio"]').append(ui.ui);
     }
   	init();
   });
