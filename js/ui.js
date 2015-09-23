@@ -1,4 +1,4 @@
-define(['jquery','model','bootstrap'], function($,model,bootstrap) {
+define(['jquery','model','big'], function($,model,big) {
 
 	var ui = {
 		ui: $('<section class="container-fluid"></section>'),
