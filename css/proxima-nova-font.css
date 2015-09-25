@@ -1,0 +1,168 @@
+/*--------------------
+|				REGULAR 			|
+---------------------*/
+
+/* PROXIMA NOVA BLACK */
+@font-face {
+	font-family: ProximaNovaBlack;
+	src: url("fonts/proxima/ProximaNova-BlackWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaBlack;
+	src: url("fonts/proxima/ProximaNova-BlackWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA BOLD */
+@font-face {
+	font-family: ProximaNovaBold;
+	src: url("fonts/proxima/ProximaNova-BoldWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaBold;
+	src: url("fonts/proxima/ProximaNova-BoldWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA LIGHT */
+@font-face {
+	font-family: ProximaNovaLight;
+	src: url("fonts/proxima/ProximaNova-LightWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaLight;
+	src: url("fonts/proxima/ProximaNova-LightWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA BOLD */
+@font-face {
+	font-family: ProximaNovaExtrabld;
+	src: url("fonts/proxima/ProximaNova-ExtrabldWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaExtrabld;
+	src: url("fonts/proxima/ProximaNova-ExtrabldWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA MEDIUM */
+@font-face {
+	font-family: ProximaNovaMedium;
+	src: url("fonts/proxima/ProximaNova-MediumWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaMedium;
+	src: url("fonts/proxima/ProximaNova-MediumWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA REGULAR */
+@font-face {
+	font-family: ProximaNovaRegular;
+	src: url("fonts/proxima/ProximaNova-RegularWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaRegular;
+	src: url("fonts/proxima/ProximaNova-RegularWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA SEMIBOLD */
+@font-face {
+	font-family: ProximaNovaSemibold;
+	src: url("fonts/proxima/ProximaNova-SemiboldWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaSemibold;
+	src: url("fonts/proxima/ProximaNova-SemiboldWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA THIN */
+@font-face {
+	font-family: ProximaNovaThin;
+	src: url("fonts/proxima/ProximaNova-ThinWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaThin;
+	src: url("fonts/proxima/ProximaNova-ThinWeb.woff") format("woff");
+}
+
+
+/*--------------------
+|				ITALICS 			|
+---------------------*/
+
+/* PROXIMA NOVA BLACK ITALICS */
+@font-face {
+	font-family: ProximaNovaBlackIt;
+	src: url("fonts/proxima/italics/ProximaNova-BlackItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaBlackIt;
+	src: url("fonts/proxima/italics/ProximaNova-BlackItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA BOLD ITALICS */
+@font-face {
+	font-family: ProximaNovaBoldIt;
+	src: url("fonts/proxima/italics/ProximaNova-BoldItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaBoldIt;
+	src: url("fonts/proxima/italics/ProximaNova-BoldItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA LIGHT ITALICS */
+@font-face {
+	font-family: ProximaNovaLightIt;
+	src: url("fonts/proxima/italics/ProximaNova-LightItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaLightIt;
+	src: url("fonts/proxima/italics/ProximaNova-LightItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA BOLD ITALICS */
+@font-face {
+	font-family: ProximaNovaExtrabldIt;
+	src: url("fonts/proxima/italics/ProximaNova-ExtrabldItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaExtrabldIt;
+	src: url("fonts/proxima/italics/ProximaNova-ExtrabldItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA MEDIUM ITALICS */
+@font-face {
+	font-family: ProximaNovaMediumIt;
+	src: url("fonts/proxima/italics/ProximaNova-MediumItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaMediumIt;
+	src: url("fonts/proxima/italics/ProximaNova-MediumItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA REGULAR ITALICS */
+@font-face {
+	font-family: ProximaNovaRegularIt;
+	src: url("fonts/proxima/italics/ProximaNova-RegularItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaRegularIt;
+	src: url("fonts/proxima/italics/ProximaNova-RegularItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA SEMIBOLD ITALICS */
+@font-face {
+	font-family: ProximaNovaSemiboldIt;
+	src: url("fonts/proxima/italics/ProximaNova-SemiboldItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaSemiboldIt;
+	src: url("fonts/proxima/italics/ProximaNova-SemiboldItWeb.woff") format("woff");
+}
+
+/* PROXIMA NOVA EXTRA THIN ITALICS  */
+@font-face {
+	font-family: ProximaNovaThinIt;
+	src: url("fonts/proxima/italics/ProximaNova-ThinItWeb.eot");
+}
+@font-face {
+	font-family: ProximaNovaThinIt;
+	src: url("fonts/proxima/italics/ProximaNova-ThinItWeb.woff") format("woff");
+}
