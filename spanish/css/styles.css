@@ -1,0 +1,113 @@
+html,body{
+  font-family: 'Lato', sans-serif;
+  background-color: #F6FFE0;
+}
+
+/*  INPUTS  */
+*:focus {
+    outline: 0;
+}
+header.menu{
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+.view-tab {
+  background: #BDD684;
+  border: 1px solid #F6FFE0;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 7px;
+  color: #10222B;
+  letter-spacing: 0.04em;
+  font-weight:300;
+  cursor: pointer;
+}
+.score-tracker{
+  cursor: default;
+}
+/* Flash Cards */
+.card-grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.card {
+  height: 150px;
+  background-color: #E2F0D6;
+  border: 1px solid #F6FFE0;
+  cursor: pointer;
+}
+.card h5 {
+  font-weight: 400;
+  margin: 0;
+  width: calc(100% - 60px);
+  letter-spacing: .03em;
+  text-transform: capitalize;
+  line-height: 18px;
+  color:#10222B;
+}
+.spanish-phrase {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.english-phrase {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+/*  OVERLAY */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(246,255,224,0.95);
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.close{
+  padding-right: 20px;
+}
+.time-bar {
+	position: relative;
+	top: 90px;
+	background: transparent;
+	height: 15px;
+	overflow: hidden;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.time-marker {
+  background: #95AB63;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.answer-input,
+.answer-input-all{
+	height: 70px;
+	position: relative;
+	top: 150px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 48px;
+	border: none;
+	background: transparent;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.try-again {
+  display: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
