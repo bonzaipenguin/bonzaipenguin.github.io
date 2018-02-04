@@ -1,6 +1,6 @@
 $('document').ready(function(){
 // ONE
-  $('.one-next').on('click', function() {
+  $('.one > .next').on('click', function() {
     $('.second').removeClass('hidden');
     $('.second').animate({
       'opacity': '1'
