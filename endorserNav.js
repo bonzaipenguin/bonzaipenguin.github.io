@@ -6,7 +6,7 @@ $('document').ready(function(){
       'opacity': '1'
     }, 200);
     $('.second').addClass('opened');
-    $('.first').addClass('hidden');
+    $('.first').addClass('hidden').css({'opacity':'0'});
     $('.one').children('.next').removeClass('col-sm-12').removeClass('btn-secondary').addClass('btn-low').html('<span>Next Candidate</span> <i class="material-icons">navigate_next</i>');
   });
 
@@ -16,7 +16,7 @@ $('document').ready(function(){
     $('.third').animate({
       'opacity': '1'
     }, 200);
-    $('.second').addClass('hidden');
+    $('.second').addClass('hidden').css({'opacity':'0'});
     $('.two').children('.next').html('<span>Next Candidate</span> <i class="material-icons">navigate_next</i>');
   });
   $('.two').children('.prev').on('click', function() {
@@ -24,7 +24,7 @@ $('document').ready(function(){
     $('.first').animate({
       'opacity': '1'
     }, 200);
-    $('.second').addClass('hidden');
+    $('.second').addClass('hidden').css({'opacity':'0'});
   });
 
 // THREE
@@ -33,7 +33,7 @@ $('document').ready(function(){
     $('.fourth').animate({
       'opacity': '1'
     }, 200);
-    $('.third').addClass('hidden');
+    $('.third').addClass('hidden').css({'opacity':'0'});
     $('.three').children('.next').html('<span>Next Candidate</span> <i class="material-icons">navigate_next</i>');
   });
   $('.three').children('.prev').on('click', function() {
@@ -41,7 +41,7 @@ $('document').ready(function(){
     $('.second').animate({
       'opacity': '1'
     }, 200);
-    $('.third').addClass('hidden');
+    $('.third').addClass('hidden').css({'opacity':'0'});
   });
 
 // FOUR
@@ -50,7 +50,7 @@ $('document').ready(function(){
     $('.fifth').animate({
       'opacity': '1'
     }, 200);
-    $('.fourth').addClass('hidden');
+    $('.fourth').addClass('hidden').css({'opacity':'0'});
     $('.four').children('.next').html('<span>Next Candidate</span> <i class="material-icons">navigate_next</i>');
   });
   $('.four').children('.prev').on('click', function() {
@@ -58,7 +58,7 @@ $('document').ready(function(){
     $('.third').animate({
       'opacity': '1'
     }, 200);
-    $('.fourth').addClass('hidden');
+    $('.fourth').addClass('hidden').css({'opacity':'0'});
   });
 
 // FIVE
@@ -67,14 +67,14 @@ $('document').ready(function(){
     $('.sixth').animate({
       'opacity': '1'
     }, 200);
-    $('.fifth').addClass('hidden');
+    $('.fifth').addClass('hidden').css({'opacity':'0'});
   });
   $('.five').children('.prev').on('click', function() {
     $('.fourth').removeClass('hidden');
     $('.fourth').animate({
       'opacity': '1'
     }, 200);
-    $('.fifth').addClass('hidden');
+    $('.fifth').addClass('hidden').css({'opacity':'0'});
   });
 
 // SIX
@@ -83,14 +83,14 @@ $('document').ready(function(){
     $('.seventh').animate({
       'opacity': '1'
     }, 200);
-    $('.sixth').addClass('hidden');
+    $('.sixth').addClass('hidden').css({'opacity':'0'});
   });
   $('.six').children('.prev').on('click', function() {
     $('.fifth').removeClass('hidden');
     $('.fifth').animate({
       'opacity': '1'
     }, 200);
-    $('.sixth').addClass('hidden');
+    $('.sixth').addClass('hidden').css({'opacity':'0'});
   });
 
 // SEVENTH
@@ -99,14 +99,14 @@ $('document').ready(function(){
     $('.eighth').animate({
       'opacity': '1'
     }, 200);
-    $('.seventh').addClass('hidden');
+    $('.seventh').addClass('hidden').css({'opacity':'0'});
   });
   $('.seven').children('.prev').on('click', function() {
     $('.sixth').removeClass('hidden');
     $('.sixth').animate({
       'opacity': '1'
     }, 200);
-    $('.seventh').addClass('hidden');
+    $('.seventh').addClass('hidden').css({'opacity':'0'});
   });
 
 // EIGHTH
@@ -115,14 +115,14 @@ $('document').ready(function(){
     $('.ninth').animate({
       'opacity': '1'
     }, 200);
-    $('.eighth').addClass('hidden');
+    $('.eighth').addClass('hidden').css({'opacity':'0'});
   });
   $('.eight').children('.prev').on('click', function() {
     $('.seventh').removeClass('hidden');
     $('.seventh').animate({
       'opacity': '1'
     }, 200);
-    $('.eighth').addClass('hidden');
+    $('.eighth').addClass('hidden').css({'opacity':'0'});
   });
 
 // NINTH
@@ -131,14 +131,14 @@ $('document').ready(function(){
     $('.tenth').animate({
       'opacity': '1'
     }, 200);
-    $('.ninth').addClass('hidden');
+    $('.ninth').addClass('hidden').css({'opacity':'0'});
   });
   $('.nine').children('.prev').on('click', function() {
     $('.eighth').removeClass('hidden');
     $('.eighth').animate({
       'opacity': '1'
     }, 200);
-    $('.ninth').addClass('hidden');
+    $('.ninth').addClass('hidden').css({'opacity':'0'});
   });
 
 // TENTH
@@ -147,6 +147,6 @@ $('document').ready(function(){
     $('.ninth').animate({
       'opacity': '1'
     }, 200);
-    $('.tenth').addClass('hidden');
+    $('.tenth').addClass('hidden').css({'opacity':'0'});
   });
 });
