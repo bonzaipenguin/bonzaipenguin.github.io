@@ -1,5 +1,5 @@
 $('document').ready(function(){
-  $('.add).on('click',function(){
+  $('.add').on('click',function(){
     if ($('.opened').hasClass('ninth')) {
       $('.opened').next('.multi-form').removeClass('hidden').addClass('opened');
       btn.addClass('hidden');
@@ -11,4 +11,5 @@ $('document').ready(function(){
       $('.opened').next('.multi-form').removeClass('hidden').addClass('opened');
     }
   });
+
 });
