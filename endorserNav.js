@@ -12,17 +12,19 @@ $('document').ready(function(){
       $('.opened').next('.multi-form').removeClass('hidden').addClass('opened');
     }
   });
-
+  
   var createAllErrors = function() {
     var form = $(this),
-      errorList = $('ul.errorMessages', form);
+      errorList = $('.errors');
     var showAllErrorMessages = function() {
       errorList.empty();
-      var invalidFields = form.find(':invalid').each(function(index, node) {
-        var label = $('label[for=' + node.id + '] '),
-          message = node.validationMessage || 'Invalid value.';
+      var invalidFields = form.find(':invalid').each(function(i) {
+        var label = $('label[for=' + i.id + '] '),
+          message = i.validationMessage || 'Invalid value.';
         errorList.show().append('<li><span>' + label.html() + '</span> ' + message + '</li>');
+        console.log('BOOM');
       });
+
     };
     form.on('submit', function(event) {
       if (this.checkValidity && !this.checkValidity()) {
