@@ -1,10 +1,6 @@
-$('document').ready(function(){
-  if (document.addEventListener) {
-    console.log('stuff');
-    document.addEventListener('invalid', function(e) {
-      e.target.className += ' invalid';
-    }, true);
-  }
+  $('button[type="submit"]').on('click',function(){
+    $('form').addClass('errors');
+  });
   
   $('.add').on('click',function(){
     if ($('.opened').hasClass('ninth')) {
