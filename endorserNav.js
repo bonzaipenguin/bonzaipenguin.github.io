@@ -1,4 +1,10 @@
 $('document').ready(function(){
+  if (document.addEventListener) {
+    console.log('stuff');
+    document.addEventListener('invalid', function(e) {
+      e.target.className += ' invalid';
+    }, true);
+  }
   
   $('.add').on('click',function(){
     if ($('.opened').hasClass('ninth')) {
