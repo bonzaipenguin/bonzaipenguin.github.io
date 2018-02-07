@@ -2,7 +2,16 @@ $('document').ready(function(){
   $('button[type="submit"]').on('click',function(){
     $('form').addClass('errors');
   });
-
+  $(function() {
+    var rC = $('.opened').children('.checkboxes :checkbox[required]');
+    rC.change(function() {
+      if (rC.is(':checked')) {
+        rC.removeAttr('required');
+      } else {
+        rC.attr('required', 'required');
+      }
+    });
+  });
   $('.add').on('click',function(){
     if ($('.opened').hasClass('ninth')) {
       $('.opened').next('.multi-form').removeClass('hidden').addClass('opened');
