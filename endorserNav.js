@@ -1,4 +1,4 @@
-$('document').load(function(){
+$('document').ready(function(){
   $('button[type="submit"]').on('click',function(){
     $('form').addClass('errors');
   });
