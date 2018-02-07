@@ -1,7 +1,8 @@
+$('document').load(function(){
   $('button[type="submit"]').on('click',function(){
     $('form').addClass('errors');
   });
-  
+
   $('.add').on('click',function(){
     if ($('.opened').hasClass('ninth')) {
       $('.opened').next('.multi-form').removeClass('hidden').addClass('opened');
