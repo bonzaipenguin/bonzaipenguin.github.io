@@ -459,9 +459,6 @@ define(['jquery','model'], function($,model) {
 			var item = $('<div class="col-sm-12 col-xs-12 form-group submit-btn"></div>');
       var button = $('<button type="submit" class="btn btn-primary col-sm-2">Submit</button>');
 			item.append(button);
-			button.on('click',function(){
-		    $('form').addClass('errors');
-		  });
 
 			return item;
 		}

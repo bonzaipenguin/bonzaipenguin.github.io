@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
-	var candidate = {
-		ui:$('<div class="layer candidate"></div>'),
+	var fill = {
+		ui:$('<div class="layer candidate fill hidden"></div>'),
 		// reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		// reFrame:$('<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location="www.theboardlist.com";}"></iframe>'),
 		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLSeIGwgns6BjJYlAwD59WvrBJ_M9v5Uml51-1BgAVQA96P6SGQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
@@ -21,8 +21,7 @@ define(['jquery','model'], function($,model) {
 		boardInfo:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
 			var title = $('<h3 class="blue">Your Board Experience</h3>');
-			var sub1 = $('<h5 class="sub-title">Please provide someone who meets the criteria for an <span class="orange">Endorser Member<span> to join theBoardlist and nominate you.</h5>');
-			var sub2 = $('<h5 class="sub-title">We suggest, though it\'s not required, that candidates meet one of the below criteria:</h5>');
+			var sub = $('<h5 class="sub-title">We suggest, though it\'s not required, that candidate meet one of the below criteria:</h5>');
 			var qualList = $('<ul></ul>');
 			var qual1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
 			var qual2 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
@@ -35,7 +34,7 @@ define(['jquery','model'], function($,model) {
 			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Advisory">Advisory board</label></div>');
 			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="None">N/A</label></div>');
 
-			item.append(title).append(sub1).append(sub2).append(qualList).append(cta).append(a1).append(a2).append(a3).append(a4).append(a5);
+			item.append(title).append(sub).append(qualList).append(cta).append(a1).append(a2).append(a3).append(a4).append(a5);
 			qualList.append(qual1).append(qual2).append(qual3).append(qual4);
 
 			return item;
@@ -52,17 +51,26 @@ define(['jquery','model'], function($,model) {
 
 			return item;
 		},
+		endo:function(){
+			var item = $('<div class="col-sm-12 form-group info"></div>');
+			var sub = $('<label for="entry.1997399572">What makes this person great for boards?</label>');
+			var a1 = $('<textarea class="form-control" id="oneEndorsement" name="entry.1997399572" rows="5"></textarea>');
+
+			item.append(sub).append(a1);
+
+			return item;
+		},
 		sub: function(){
-			var item = $('<div class="form-group"></div>');
-      var button = $('<button type="submit" class="btn btn-primary">Submit</button>');
+			var item = $('<div class="col-sm-12 col-xs-12 form-group submit-btn"></div>');
+      var button = $('<button type="submit" class="btn btn-primary col-sm-2">Submit</button>');
 			item.append(button);
 
 			return item;
 		}
 	};
-	candidate.ui.append(candidate.form);
-	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.boardInfo).append(candidate.endorserInfo).append(candidate.sub);
+	fill.ui.append(fill.form);
+	fill.form.append(fill.pageTitle).append(fill.basicInfo).append(fill.boardInfo).append(fill.endorserInfo).append(fill.endo).append(fill.sub);
 
 
-	return candidate;
+	return fill;
 });
