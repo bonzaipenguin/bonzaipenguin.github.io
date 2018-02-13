@@ -7,7 +7,6 @@ define(['jquery','model','header','noFill','fill','endorser','dialog','confirmat
 	};
 	ui.ui.append(ui.headerRow).append(ui.mainRow);
 	ui.headerRow.append(header.ui);
-	ui.mainRow.append(noFill.ui);
 	ui.mainRow.append(fill.ui);
 	ui.mainRow.css({'padding-top':'24px'});
 

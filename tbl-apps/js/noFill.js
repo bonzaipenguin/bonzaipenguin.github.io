@@ -9,10 +9,10 @@ define(['jquery','model'], function($,model) {
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
-			var a1 = $('<div class="form-group col-sm-6"><label for="">First Name</label><input class="form-control" type="text" name=""></div>');
+			var a1 = $('<div class="form-group col-sm-6 required><label for="">First Name</label><input class="form-control" type="text" name=""></div>');
 			var a2 = $('<div class="form-group col-sm-6"><label for="">Last Name</label><input class="form-control" type="text" name=""></div>');
 			var a3 = $('<div class="form-group col-sm-12"><label for="">LinkedIn Profile</label><input class="form-control" type="text" name=""></div>');
-			var a4 = $('<div class="form-group col-sm-12"><label for="">Email Address</label><input class="form-control" type="text" name=""></div>');
+			var a4 = $('<div class="form-group col-sm-12"><label for="">Personal Email Address</label><input class="form-control" type="text" name=""></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
@@ -28,11 +28,11 @@ define(['jquery','model'], function($,model) {
 			var qual3 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
 			var qual4 = $('<li>Directors at companies with $500m+ revenue</li>');
 			var cta = $('<h5 class="required">Click all that apply:</h5>');
-			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Non-Profit">Non-Profit board</label></div>');
-			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Public">Public board</label></div>');
-			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Private">Private board</label></div>');
-			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Advisory">Advisory board</label></div>');
-			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="None">N/A</label></div>');
+			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Non-Profit">Non-Profit board</label></div>');
+			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Public">Public board</label></div>');
+			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Private">Private board</label></div>');
+			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Advisory">Advisory board</label></div>');
+			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="None">N/A</label></div>');
 
 			item.append(title).append(sub).append(qualList).append(cta).append(a1).append(a2).append(a3).append(a4).append(a5);
 			qualList.append(qual1).append(qual2).append(qual3).append(qual4);

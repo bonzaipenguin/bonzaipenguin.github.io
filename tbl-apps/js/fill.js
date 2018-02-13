@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
 	var fill = {
-		ui:$('<div class="layer candidate fill hidden"></div>'),
+		ui:$('<div class="layer candidate fill"></div>'),
 		// reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		// reFrame:$('<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location="www.theboardlist.com";}"></iframe>'),
 		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLSeIGwgns6BjJYlAwD59WvrBJ_M9v5Uml51-1BgAVQA96P6SGQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
@@ -9,10 +9,10 @@ define(['jquery','model'], function($,model) {
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
-			var a1 = $('<div class="form-group col-sm-6"><label for="">First Name</label><input class="form-control" type="text" name=""></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="">Last Name</label><input class="form-control" type="text" name=""></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="">LinkedIn Profile</label><input class="form-control" type="text" name=""></div>');
-			var a4 = $('<div class="form-group col-sm-12"><label for="">Email Address</label><input class="form-control" type="text" name=""></div>');
+			var a1 = $('<div class="form-group col-sm-6 required"><label for="" class="required">First Name</label><input class="form-control" type="text" name=""></div>');
+			var a2 = $('<div class="form-group col-sm-6 required"><label for="" class="required">Last Name</label><input class="form-control" type="text" name=""></div>');
+			var a3 = $('<div class="form-group col-sm-12 required"><label for="" class="required">LinkedIn Profile</label><input class="form-control" type="text" name=""></div>');
+			var a4 = $('<div class="form-group col-sm-12 required"><label for="" class="required">Personal Email Address</label><input class="form-control" type="text" name=""></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
@@ -28,11 +28,11 @@ define(['jquery','model'], function($,model) {
 			var qual3 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
 			var qual4 = $('<li>Directors at companies with $500m+ revenue</li>');
 			var cta = $('<h5 class="required">Click all that apply:</h5>');
-			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Non-Profit">Non-Profit board</label></div>');
-			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Public">Public board</label></div>');
-			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Private">Private board</label></div>');
-			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="Advisory">Advisory board</label></div>');
-			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" required name="" value="None">N/A</label></div>');
+			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Non-Profit">Non-Profit board</label></div>');
+			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Public">Public board</label></div>');
+			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Private">Private board</label></div>');
+			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Advisory">Advisory board</label></div>');
+			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="None">N/A</label></div>');
 
 			item.append(title).append(sub).append(qualList).append(cta).append(a1).append(a2).append(a3).append(a4).append(a5);
 			qualList.append(qual1).append(qual2).append(qual3).append(qual4);
@@ -43,9 +43,9 @@ define(['jquery','model'], function($,model) {
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Endorser</h3>');
 			var sub = $('<h5>Ask someone who meets <span class="medium orange">the criteria for an Endorser Member</span> to join theBoardlist and nominate you.</h5>')
-			var a1 = $('<div class="form-group col-sm-6"><label for="">First Name</label><input class="form-control" type="text" name=""></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="">Last Name</label><input class="form-control" type="text" name=""></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="">Email Address</label><input class="form-control" type="text" name=""></div>');
+			var a1 = $('<div class="form-group col-sm-6 required"><label for="" class="required">First Name</label><input class="form-control" type="text" name=""></div>');
+			var a2 = $('<div class="form-group col-sm-6 required"><label for="" class="required">Last Name</label><input class="form-control" type="text" name=""></div>');
+			var a3 = $('<div class="form-group col-sm-12 required"><label for="" class="required">Email Address</label><input class="form-control" type="text" name=""></div>');
 
 			item.append(title).append(sub).append(a1).append(a2).append(a3);
 
@@ -53,8 +53,8 @@ define(['jquery','model'], function($,model) {
 		},
 		endo:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="entry.1997399572">What makes this person great for boards?</label>');
-			var a1 = $('<textarea class="form-control" id="oneEndorsement" name="entry.1997399572" rows="5"></textarea>');
+			var sub = $('<label for="entry.1997399572">What do you want your endorser to say?</label>');
+			var a1 = $('<textarea class="form-control" id="oneEndorsement" name="entry.1997399572" rows="5" placeholder="What makes this person great for boards?"></textarea>');
 
 			item.append(sub).append(a1);
 
