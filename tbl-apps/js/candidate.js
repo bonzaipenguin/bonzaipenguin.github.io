@@ -14,7 +14,7 @@ define(['jquery','model'], function($,model) {
 			var a3 = $('<div class="form-group col-sm-12"><label for="">LinkedIn Profile</label><input class="form-control" type="text" name=""></div>');
 			var a4 = $('<div class="form-group col-sm-12"><label for="">Email Address</label><input class="form-control" type="text" name=""></div>');
 
-			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5);
+			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
 			return item;
 		},
