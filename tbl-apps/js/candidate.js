@@ -61,7 +61,7 @@ define(['jquery','model'], function($,model) {
 		}
 	};
 	candidate.ui.append(candidate.form);
-	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.boardInfo).append(candidate.endorserInfo);.append(candidate.sub);
+	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.boardInfo).append(candidate.endorserInfo).append(candidate.sub);
 
 
 	return candidate;
