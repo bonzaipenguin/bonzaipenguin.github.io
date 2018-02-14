@@ -24,6 +24,8 @@ define(['jquery'], function($) {
 			var item = $('<div class="col-sm-12 form-group info"></div>');
 			var title = $('<h3 class="blue">Your Board Experience</h3>');
 			var sub = $('<h5 class="sub-title">We suggest, though it\'s not required, that candidate meet one of the below criteria:</h5>');
+			var b1 = $('<div class="col-md-6 col-sm-12"></div>');
+			var b2 = $('<div class="col-md-4 col-md-offset-2 col-sm-12"></div>');
 			var qualList = $('<ul></ul>');
 			var qual1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
 			var qual2 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
@@ -35,7 +37,9 @@ define(['jquery'], function($) {
 			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Public">Public board</label></div>');
 			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for=""><input class="form-check-input" type="checkbox" name="" value="Private">Private board</label></div>');
 
-			item.append(title).append(sub).append(qualList).append(cta).append(a1).append(a2).append(a3).append(a4);
+			item.append(title).append(b1).append(b2);
+			b1.append(sub).append(qualList);
+			b2.append(cta).append(a1).append(a2).append(a3).append(a4);
 			qualList.append(qual1).append(qual2).append(qual3).append(qual4);
 
 			return item;

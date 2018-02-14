@@ -24,7 +24,7 @@ define(['jquery'], function($) {
 			var item = $('<div class="col-sm-12 form-group info"></div>');
 			var title = $('<h3 class="blue">Your Board Experience</h3>');
 			var b1 = $('<div class="col-md-6 col-sm-12"></div>');
-			var b2 = $('<div class="col-md-4 col-sm-offsett-2 col-sm-12"></div>');
+			var b2 = $('<div class="col-md-4 col-md-offset-2 col-sm-12"></div>');
 			var sub = $('<h5 class="sub-title">We suggest, though it\'s not required, that candidates meet one of the below criteria:</h5>');
 			var qualList = $('<ul></ul>');
 			var qual1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
