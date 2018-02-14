@@ -5,7 +5,7 @@ define(['jquery'], function($) {
 		// reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		// reFrame:$('<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location="www.theboardlist.com";}"></iframe>'),
 		form:$('<form action="" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
-		pageTitle:$('<h2 class="col-sm-12 form-title">Searcher Application</h2>'),
+		pageTitle:$('<h2 class="form-title">Searcher Application</h2>'),
 		basicInfo:function(){
 			var item = $('<div class="col-md-6 col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');

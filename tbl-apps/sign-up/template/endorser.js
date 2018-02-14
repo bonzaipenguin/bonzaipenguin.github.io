@@ -1,12 +1,11 @@
 define(['jquery'], function($) {
 
 	var endorser = {
-		ui:$('<div></div>'),
+		ui:$('<div class="endorser"></div>'),
 		reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		// reFrame:$("<iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted) { window.location='https://theboardlist.com/confirmation-e';}" style="display:none;"></iframe>"></iframe>"),
 		form:$('<form action="" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application" method="post" onsubmit="submitted=true;" target="hidden_iframe"></form>'),
-		pageTitle:$('<h2 class="col-sm-12 col-xs-12 form-title">Endorser Member Application</h2>'),
-		errors:$('<ul class="col-sm-12 errors"></ul>'),
+		pageTitle:$('<h2 class="form-title">Endorser Member Application</h2>'),
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');

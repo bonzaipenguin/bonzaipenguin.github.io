@@ -1,11 +1,11 @@
 define(['jquery'], function($) {
 
 	var candidate = {
-		ui:$('<div class="layer candidate"></div>'),
+		ui:$('<div class="candidate"></div>'),
 		// reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		// reFrame:$('<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location="www.theboardlist.com";}"></iframe>'),
 		form:$('<form action="" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
-		pageTitle:$('<h2 class="col-sm-12 form-title">Candidate Application</h2>'),
+		pageTitle:$('<h2 class="form-title">Candidate Application</h2>'),
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
