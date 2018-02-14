@@ -1,4 +1,4 @@
-define(['jquery','model'], function($,model) {
+define(['jquery'], function($) {
 
 	var searcher = {
 		ui:$('<div class="searcher"></div>'),

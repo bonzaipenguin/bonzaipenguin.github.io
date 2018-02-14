@@ -1,4 +1,4 @@
-define(['jquery','model'], function($,model) {
+define(['jquery'], function($) {
 
 	var confirmation = {
 		ui:$('<div class="container"></div>'),

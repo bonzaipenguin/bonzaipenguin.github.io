@@ -1,4 +1,4 @@
-define(['jquery','model'], function($,model) {
+define(['jquery'], function($) {
 
 	var header = {
 		ui:$('<div class="col-md-2 col-sm-3 col-xs-4 nav-wrapper"></div>'),

@@ -1,4 +1,4 @@
-define(['jquery','model'], function($,model) {
+define(['jquery'], function($) {
 
 	var test = {
 		ui:$('<div class="layer white test"></div>'),

@@ -10,7 +10,7 @@ require.config({
 });
 
 
-require( ['model','jquery'], function (model,$,_) {
+require( ['jquery'], function ($) {
   require(['ui'], function(ui) {
     function init() {
       $('body').prepend(ui.ui);
