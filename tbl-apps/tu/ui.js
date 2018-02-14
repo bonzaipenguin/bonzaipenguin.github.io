@@ -1,4 +1,4 @@
-define(['jquery','model','header','noFill','fill','endorser','dialog','confirmation'], function($,model,header,noFill,fill,endorser,dialog,confirmation) {
+define(['jquery','model','header','endorser','candidate','searcher','confirmation'], function($,model,header,endorser,candidate,searcher,confirmation) {
 
 	var ui = {
 		ui: $('<section class="container-fluid"></section>'),
@@ -7,7 +7,7 @@ define(['jquery','model','header','noFill','fill','endorser','dialog','confirmat
 	};
 	ui.ui.append(ui.headerRow).append(ui.mainRow);
 	ui.headerRow.append(header.ui);
-	ui.mainRow.append(fill.ui);
+	ui.mainRow.append(searcher.ui);
 	ui.mainRow.css({'padding-top':'24px'});
 
 	return ui;

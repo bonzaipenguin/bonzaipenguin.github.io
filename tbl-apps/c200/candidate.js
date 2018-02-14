@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
-	var fill = {
-		ui:$('<div class="layer candidate fill"></div>'),
+	var candidate = {
+		ui:$('<div class="layer candidate"></div>'),
 		// reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		// reFrame:$('<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location="www.theboardlist.com";}"></iframe>'),
 		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLSfHnw9OIxaqme7iAJDGSkiI6APY3Fqzal8bdJj1358sglYiTQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
@@ -69,9 +69,9 @@ define(['jquery','model'], function($,model) {
 			return item;
 		}
 	};
-	fill.ui.append(fill.form);
-	fill.form.append(fill.pageTitle).append(fill.basicInfo).append(fill.boardInfo).append(fill.endorserInfo).append(fill.endo).append(fill.sub);
+	candidate.ui.append(candidate.form);
+	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.boardInfo).append(candidate.endorserInfo).append(candidate.endo).append(candidate.sub);
 
 
-	return fill;
+	return candidate;
 });
