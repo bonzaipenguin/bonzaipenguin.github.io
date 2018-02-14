@@ -1,4 +1,4 @@
-define(['jquery','model','header','candidate','endorser','confirmation'], function($,model,header,candidate,endorser,confirmation) {
+define(['jquery','model','header','candidate','endorser','searcher','confirmation'], function($,model,header,candidate,endorser,searcher,confirmation) {
 
 	var ui = {
 		ui: $('<section class="container-fluid"></section>'),
