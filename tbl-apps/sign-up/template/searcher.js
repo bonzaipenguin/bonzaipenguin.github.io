@@ -2,12 +2,10 @@ define(['jquery'], function($) {
 
 	var searcher = {
 		ui:$('<div class="searcher"></div>'),
-		// reScript:$('<script type="text/javascript">var submitted=false;</script>'),
-		// reFrame:$('<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location="www.theboardlist.com";}"></iframe>'),
 		form:$('<form action="" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
 		pageTitle:$('<h2 class="form-title">Searcher Application</h2>'),
 		basicInfo:function(){
-			var item = $('<div class="col-md-6 col-sm-12 info"></div>');
+			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
 			var a1 = $('<div class="form-group col-sm-6 required"><label for="">First Name</label><input class="form-control" type="text" name=""></div>');
 			var a2 = $('<div class="form-group col-sm-6 required"><label for="">Last Name</label><input class="form-control" type="text" name=""></div>');
@@ -18,7 +16,7 @@ define(['jquery'], function($) {
 
 			return item;
 		},
-		searchInfo:$('<div class="col-md-6 col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill</h5></div>'),
+		searchInfo:$('<div class="col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill</h5></div>'),
 		company:$('<div class="form-group col-sm-12 required"><label for="">Company Name</label><input class="form-control" type="text" name=""></div>'),
 		annual:function(){
 			var item = $('<div class="col-md-4 col-sm-12 form-group required"></div>');

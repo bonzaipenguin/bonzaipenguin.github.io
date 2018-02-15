@@ -7,7 +7,7 @@ define(['jquery'], function($) {
 		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLSdT3L-MLQICDDyJluNh15SN_CJJBJUtbmvOFJ1ijPzIDCctJQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application"></form>'),
 		pageTitle:$('<h2 class="col-sm-12 form-title">Searcher Application</h2>'),
 		basicInfo:function(){
-			var item = $('<div class="col-md-6 col-sm-12 info"></div>');
+			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
 			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1889823535">First Name</label><input class="form-control" type="text" name="entry.1889823535"></div>');
 			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.1157697206">Last Name</label><input class="form-control" type="text" name="entry.1157697206"></div>');
@@ -18,7 +18,7 @@ define(['jquery'], function($) {
 
 			return item;
 		},
-		searchInfo:$('<div class="col-md-6 col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill</h5></div>'),
+		searchInfo:$('<div class="col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill</h5></div>'),
 		company:$('<div class="form-group col-sm-12 required"><label for="entry.706013185">Company Name</label><input class="form-control" type="text" name="entry.706013185"></div>'),
 		annual:function(){
 			var item = $('<div class="col-md-4 col-sm-12 form-group required"></div>');
