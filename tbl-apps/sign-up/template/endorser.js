@@ -438,7 +438,7 @@ define(['jquery'], function($) {
 // NAV BUTTONS
 		add:function(){
 			var item = $('<div class="col-sm-12 col-xs-12 form-group info add"s></div>');
-			var btn = $('<div class="btn btn-secondary col-sm-12 next"><i class="material-icons" style="font-size:18px">add</i> <span>Endorse Another</span></div>');
+			var btn = $('<div class="btn btn-secondary col-sm-12 col-xs-12 next"><i class="material-icons" style="font-size:18px">add</i> <span>Endorse Another</span></div>');
 			item.append(btn);
 			btn.on('click',function(){
 				if ($('.opened').hasClass('ninth')) {

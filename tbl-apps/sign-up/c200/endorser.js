@@ -3,9 +3,8 @@ define(['jquery'], function($) {
 	var endorser = {
 		ui:$('<div></div>'),
 		reScript:$('<script type="text/javascript">var submitted=false;</script>'),
-		form:$('<form action="" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application" method="post" onsubmit="submitted=true;" target="hidden_iframe"></form>'),
+		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLScP1tMvGsQ4NAPW8ssVgn2moDyUjMw2Z8XUpCz1dvOcKBX72g/formResponse" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application" method="post" onsubmit="submitted=true;" target="hidden_iframe"></form>'),
 		pageTitle:$('<h2 class="col-sm-12 col-xs-12 form-title">Endorser Member Application</h2>'),
-		errors:$('<ul class="col-sm-12 errors"></ul>'),
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
@@ -214,7 +213,7 @@ define(['jquery'], function($) {
 			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
 			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Late Stage">Late Stage (Series E/F+)</label></div>');
 			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Advisory">Advisory board</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Non-Profit">Non Profit</label></div>');
 			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
@@ -230,7 +229,7 @@ define(['jquery'], function($) {
 			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
 			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Late Stage">Late Stage (Series E/F+)</label></div>');
 			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Advisory">Advisory board</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Non-Profit">Non Profit</label></div>');
 			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
@@ -429,7 +428,7 @@ define(['jquery'], function($) {
 // NAV BUTTONS
 		add:function(){
 			var item = $('<div class="col-sm-12 col-xs-12 form-group info add"s></div>');
-			var btn = $('<div class="btn btn-secondary col-sm-12 next"><i class="material-icons" style="font-size:18px">add</i> <span>Endorse Another</span></div>');
+			var btn = $('<div class="btn btn-secondary col-sm-12 col-xs-12 next"><i class="material-icons" style="font-size:18px">add</i> <span>Endorse Another</span></div>');
 			item.append(btn);
 			btn.on('click',function(){
 				if ($('.opened').hasClass('ninth')) {
