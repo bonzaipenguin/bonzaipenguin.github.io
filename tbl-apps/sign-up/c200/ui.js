@@ -7,7 +7,7 @@ define(['jquery','header','candidate','endorser','searcher','confirmation'], fun
 	};
 	ui.ui.append(ui.headerRow).append(ui.mainRow);
 	ui.headerRow.append(header.ui);
-	ui.mainRow.append(searcher.ui);
+	ui.mainRow.append(endorser.ui);
 	ui.mainRow.css({'padding-top':'24px'});
 
 	return ui;

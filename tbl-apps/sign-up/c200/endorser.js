@@ -24,11 +24,11 @@ define(['jquery'], function($) {
 			var item = $('<div class="col-sm-12 form-group info"></div>');
 			var title = $('<h3 class="blue">Your Board Experience</h3>');
 			var sub = $('<h5 class="medium required">Click all that apply:</h5>');
-			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" required name="entry.1416554103" value="Non-Profit">Non Profit</label></div>');
-			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" required name="entry.1416554103" value="Public">Public board</label></div>');
-			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" required name="entry.1416554103" value="Private">Private board</label></div>');
-			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" required name="entry.1416554103" value="Advisory">Advisory</label></div>');
-			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" required name="entry.1416554103" value="None">N/A</label></div>');
+			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" name="entry.1416554103" value="Non-Profit">Non Profit</label></div>');
+			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" name="entry.1416554103" value="Public">Public board</label></div>');
+			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" name="entry.1416554103" value="Private">Private board</label></div>');
+			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" name="entry.1416554103" value="Advisory">Advisory</label></div>');
+			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1416554103"><input class="form-check-input" type="checkbox" name="entry.1416554103" value="None">N/A</label></div>');
 
 			item.append(title).append(sub).append(a1).append(a2).append(a3).append(a4).append(a5);
 
@@ -126,10 +126,10 @@ define(['jquery'], function($) {
 		sevenInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Endorse a Seventh Candidate</h3>');
-			var a1 = $('<div class="form-group col-sm-6"><label for="entry.904844593">First Name</label><input class="form-control" type="text" name="entry.904844593"></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="entry.822931657">Last Name</label><input class="form-control" type="text" name="entry.822931657"></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="entry.1651013818">Email Address</label><input class="form-control" type="email" name="entry.1651013818"></div>');
-			var a4 = $('<div class="form-group col-sm-12"><label for="entry.294496047">Current Company</label><input class="form-control" type="text" name="entry.294496047"></div>');
+			var a1 = $('<div class="form-group col-sm-6"><label for="entry.801596978">First Name</label><input class="form-control" type="text" name="entry.801596978"></div>');
+			var a2 = $('<div class="form-group col-sm-6"><label for="entry.1607827100">Last Name</label><input class="form-control" type="text" name="entry.1607827100"></div>');
+			var a3 = $('<div class="form-group col-sm-12"><label for="entry.1882519368">Email Address</label><input class="form-control" type="email" name="entry.1882519368"></div>');
+			var a4 = $('<div class="form-group col-sm-12"><label for="entry.565336528">Current Company</label><input class="form-control" type="text" name="entry.565336528"></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
@@ -138,10 +138,10 @@ define(['jquery'], function($) {
 		eightInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Endorse a Eighth Candidate</h3>');
-			var a1 = $('<div class="form-group col-sm-6"><label for="entry.266805816">First Name</label><input class="form-control" type="text" name="entry.266805816"></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="entry.1705112352">Last Name</label><input class="form-control" type="text" name="entry.1705112352"></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="entry.179732037">Email Address</label><input class="form-control" type="email" name="entry.179732037"></div>');
-			var a4 = $('<div class="form-group col-sm-12"><label for="entry.391742291">Current Company</label><input class="form-control" type="text" name="entry.391742291"></div>');
+			var a1 = $('<div class="form-group col-sm-6"><label for="entry.42689013">First Name</label><input class="form-control" type="text" name="entry.42689013"></div>');
+			var a2 = $('<div class="form-group col-sm-6"><label for="entry.2094589984">Last Name</label><input class="form-control" type="text" name="entry.2094589984"></div>');
+			var a3 = $('<div class="form-group col-sm-12"><label for="entry.751484019">Email Address</label><input class="form-control" type="email" name="entry.751484019"></div>');
+			var a4 = $('<div class="form-group col-sm-12"><label for="entry.2058643989">Current Company</label><input class="form-control" type="text" name="entry.2058643989"></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
@@ -150,10 +150,10 @@ define(['jquery'], function($) {
 		nineInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Endorse a Ninth Candidate</h3>');
-			var a1 = $('<div class="form-group col-sm-6"><label for="entry.1067386614">First Name</label><input class="form-control" type="text" name="entry.1067386614"></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="entry.1691561196">Last Name</label><input class="form-control" type="text" name="entry.1691561196"></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="entry.113841919">Email Address</label><input class="form-control" type="email" name="entry.113841919"></div>');
-			var a4 = $('<div class="form-group col-sm-12"><label for="entry.458006580">Current Company</label><input class="form-control" type="text" name="entry.458006580"></div>');
+			var a1 = $('<div class="form-group col-sm-6"><label for="entry.1900991051">First Name</label><input class="form-control" type="text" name="entry.1900991051"></div>');
+			var a2 = $('<div class="form-group col-sm-6"><label for="entry.231956218">Last Name</label><input class="form-control" type="text" name="entry.231956218"></div>');
+			var a3 = $('<div class="form-group col-sm-12"><label for="entry.1769469390">Email Address</label><input class="form-control" type="email" name="entry.1769469390"></div>');
+			var a4 = $('<div class="form-group col-sm-12"><label for="entry.1523029374">Current Company</label><input class="form-control" type="text" name="entry.1523029374"></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
@@ -162,10 +162,10 @@ define(['jquery'], function($) {
 		tenInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Endorse a Tenth Candidate</h3>');
-			var a1 = $('<div class="form-group col-sm-6"><label for="entry.1745329881">First Name</label><input class="form-control" type="text" name="entry.1745329881"></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="entry.273887771">Last Name</label><input class="form-control" type="text" name="entry.273887771"></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="entry.114658109">Email Address</label><input class="form-control" type="email" name="entry.114658109"></div>');
-			var a4 = $('<div class="form-group col-sm-12"><label for="entry.635955104">Current Company</label><input class="form-control" type="text" name="entry.635955104"></div>');
+			var a1 = $('<div class="form-group col-sm-6"><label for="entry.2006572917">First Name</label><input class="form-control" type="text" name="entry.2006572917"></div>');
+			var a2 = $('<div class="form-group col-sm-6"><label for="entry.173357435">Last Name</label><input class="form-control" type="text" name="entry.173357435"></div>');
+			var a3 = $('<div class="form-group col-sm-12"><label for="entry.789071800">Email Address</label><input class="form-control" type="email" name="entry.789071800"></div>');
+			var a4 = $('<div class="form-group col-sm-12"><label for="entry.1934346936">Current Company</label><input class="form-control" type="text" name="entry.1934346936"></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4);
 
@@ -178,12 +178,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium required">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" required name="entry.68860985" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" required name="entry.68860985" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" required name="entry.68860985" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" required name="entry.68860985" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" required name="entry.68860985" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" required name="entry.68860985" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" name="entry.68860985" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" name="entry.68860985" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" name="entry.68860985" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" name="entry.68860985" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" name="entry.68860985" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.68860985"><input class="form-check-input" type="checkbox" name="entry.68860985" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -194,12 +194,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" required name="entry.85797477" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" required name="entry.85797477" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" required name="entry.85797477" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" required name="entry.85797477" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" required name="entry.85797477" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" required name="entry.85797477" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" name="entry.85797477" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" name="entry.85797477" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" name="entry.85797477" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" name="entry.85797477" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" name="entry.85797477" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.85797477"><input class="form-check-input" type="checkbox" name="entry.85797477" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -210,12 +210,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" required name="entry.483914257" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" required name="entry.483914257" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" required name="entry.483914257" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" required name="entry.483914257" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" required name="entry.483914257" value="Advisory">Advisory board</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" required name="entry.483914257" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Advisory">Advisory board</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.483914257"><input class="form-check-input" type="checkbox" name="entry.483914257" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -226,12 +226,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" required name="entry.576845864" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" required name="entry.576845864" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" required name="entry.576845864" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" required name="entry.576845864" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" required name="entry.576845864" value="Advisory">Advisory board</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" required name="entry.576845864" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Advisory">Advisory board</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.576845864"><input class="form-check-input" type="checkbox" name="entry.576845864" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -242,12 +242,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" required name="entry.314739941" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" required name="entry.314739941" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" required name="entry.314739941" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" required name="entry.314739941" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" required name="entry.314739941" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" required name="entry.314739941" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" name="entry.314739941" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" name="entry.314739941" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" name="entry.314739941" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" name="entry.314739941" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" name="entry.314739941" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.314739941"><input class="form-check-input" type="checkbox" name="entry.314739941" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -258,12 +258,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" required name="entry.785362257" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" required name="entry.785362257" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" required name="entry.785362257" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" required name="entry.785362257" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" required name="entry.785362257" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" required name="entry.785362257" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" name="entry.785362257" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" name="entry.785362257" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" name="entry.785362257" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" name="entry.785362257" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" name="entry.785362257" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.785362257"><input class="form-check-input" type="checkbox" name="entry.785362257" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -274,12 +274,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.849763989"><input class="form-check-input" type="checkbox" required name="entry.849763989" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.849763989"><input class="form-check-input" type="checkbox" required name="entry.849763989" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.849763989"><input class="form-check-input" type="checkbox" required name="entry.849763989" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.849763989"><input class="form-check-input" type="checkbox" required name="entry.849763989" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.849763989"><input class="form-check-input" type="checkbox" required name="entry.849763989" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.849763989"><input class="form-check-input" type="checkbox" required name="entry.849763989" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.166516449"><input class="form-check-input" type="checkbox" name="entry.166516449" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.166516449"><input class="form-check-input" type="checkbox" name="entry.166516449" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.166516449"><input class="form-check-input" type="checkbox" name="entry.166516449" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.166516449"><input class="form-check-input" type="checkbox" name="entry.166516449" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.166516449"><input class="form-check-input" type="checkbox" name="entry.166516449" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.166516449"><input class="form-check-input" type="checkbox" name="entry.166516449" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -290,12 +290,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.1695034741"><input class="form-check-input" type="checkbox" required name="entry.1695034741" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.1695034741"><input class="form-check-input" type="checkbox" required name="entry.1695034741" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.1695034741"><input class="form-check-input" type="checkbox" required name="entry.1695034741" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.1695034741"><input class="form-check-input" type="checkbox" required name="entry.1695034741" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.1695034741"><input class="form-check-input" type="checkbox" required name="entry.1695034741" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.1695034741"><input class="form-check-input" type="checkbox" required name="entry.1695034741" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.546835833"><input class="form-check-input" type="checkbox" name="entry.546835833" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.546835833"><input class="form-check-input" type="checkbox" name="entry.546835833" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.546835833"><input class="form-check-input" type="checkbox" name="entry.546835833" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.546835833"><input class="form-check-input" type="checkbox" name="entry.546835833" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.546835833"><input class="form-check-input" type="checkbox" name="entry.546835833" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.546835833"><input class="form-check-input" type="checkbox" name="entry.546835833" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -306,12 +306,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.539688820"><input class="form-check-input" type="checkbox" required name="entry.539688820" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.539688820"><input class="form-check-input" type="checkbox" required name="entry.539688820" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.539688820"><input class="form-check-input" type="checkbox" required name="entry.539688820" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.539688820"><input class="form-check-input" type="checkbox" required name="entry.539688820" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.539688820"><input class="form-check-input" type="checkbox" required name="entry.539688820" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.539688820"><input class="form-check-input" type="checkbox" required name="entry.539688820" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.1608032742"><input class="form-check-input" type="checkbox" name="entry.1608032742" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.1608032742"><input class="form-check-input" type="checkbox" name="entry.1608032742" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.1608032742"><input class="form-check-input" type="checkbox" name="entry.1608032742" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.1608032742"><input class="form-check-input" type="checkbox" name="entry.1608032742" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.1608032742"><input class="form-check-input" type="checkbox" name="entry.1608032742" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.1608032742"><input class="form-check-input" type="checkbox" name="entry.1608032742" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -322,12 +322,12 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium">Best suited for (2 max):</h5>');
 			var g1 = $('<div class="col-sm-6"></div>');
 			var g2 = $('<div class="col-sm-6"></div>');
-			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.700400513"><input class="form-check-input" type="checkbox" required name="entry.700400513" value="Early Stage">Early Stage (Series A/B)</label></div>');
-			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.700400513"><input class="form-check-input" type="checkbox" required name="entry.700400513" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
-			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.700400513"><input class="form-check-input" type="checkbox" required name="entry.700400513" value="Late Stage">Late Stage (Series E/F+)</label></div>');
-			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.700400513"><input class="form-check-input" type="checkbox" required name="entry.700400513" value="Public">Public</label></div>');
-			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.700400513"><input class="form-check-input" type="checkbox" required name="entry.700400513" value="Non-Profit">Non Profit</label></div>');
-			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.700400513"><input class="form-check-input" type="checkbox" required name="entry.700400513" value="Advisory">Advisory</label></div>');
+			var a1 = $('<div class="form-check"><label class="form-check-label" for="entry.153677545"><input class="form-check-input" type="checkbox" name="entry.153677545" value="Early Stage">Early Stage (Series A/B)</label></div>');
+			var a2 = $('<div class="form-check"><label class="form-check-label" for="entry.153677545"><input class="form-check-input" type="checkbox" name="entry.153677545" value="Mid Stage">Mid Stage (Series B/B+ - D)</label></div>');
+			var a3 = $('<div class="form-check"><label class="form-check-label" for="entry.153677545"><input class="form-check-input" type="checkbox" name="entry.153677545" value="Late Stage">Late Stage (Series E/F+)</label></div>');
+			var a4 = $('<div class="form-check"><label class="form-check-label" for="entry.153677545"><input class="form-check-input" type="checkbox" name="entry.153677545" value="Public">Public</label></div>');
+			var a5 = $('<div class="form-check"><label class="form-check-label" for="entry.153677545"><input class="form-check-input" type="checkbox" name="entry.153677545" value="Non-Profit">Non Profit</label></div>');
+			var a6 = $('<div class="form-check"><label class="form-check-label" for="entry.153677545"><input class="form-check-input" type="checkbox" name="entry.153677545" value="Advisory">Advisory</label></div>');
 
 			item.append(sub).append(g1.append(a1).append(a2).append(a3)).append(g2.append(a4).append(a5).append(a6));
 
@@ -373,7 +373,7 @@ define(['jquery'], function($) {
 		},
 		fiveEnd:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="">What makes this person great for boards?</label>');
+			var sub = $('<label for="entry.548113430">What makes this person great for boards?</label>');
 			var a1 = $('<textarea class="form-control" id="fiveEndorsement" name="entry.548113430" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
@@ -382,8 +382,8 @@ define(['jquery'], function($) {
 		},
 		sixEnd:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="entry.311842730">What makes this person great for boards?</label>');
-			var a1 = $('<textarea class="form-control" id="sixEndorsement" name="entry.311842730" rows="5"></textarea>');
+			var sub = $('<label for="entry.455209790">What makes this person great for boards?</label>');
+			var a1 = $('<textarea class="form-control" id="sixEndorsement" name="entry.455209790" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
 
@@ -391,8 +391,8 @@ define(['jquery'], function($) {
 		},
 		sevenEnd:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="entry.273933487">What makes this person great for boards?</label>');
-			var a1 = $('<textarea class="form-control" id="sevenEndorsement" name="entry.273933487" rows="5"></textarea>');
+			var sub = $('<label for="entry.547916445">What makes this person great for boards?</label>');
+			var a1 = $('<textarea class="form-control" id="sevenEndorsement" name="entry.547916445" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
 
@@ -400,8 +400,8 @@ define(['jquery'], function($) {
 		},
 		eightEnd:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="entry.465807934">What makes this person great for boards?</label>');
-			var a1 = $('<textarea class="form-control" id="eightEndorsement" name="entry.465807934" rows="5"></textarea>');
+			var sub = $('<label for="entry.1019579836">What makes this person great for boards?</label>');
+			var a1 = $('<textarea class="form-control" id="eightEndorsement" name="entry.1019579836" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
 
@@ -409,8 +409,8 @@ define(['jquery'], function($) {
 		},
 		nineEnd:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="entry.1445467220">What makes this person great for boards?</label>');
-			var a1 = $('<textarea class="form-control" id="nineEndorsement" name="entry.1445467220" rows="5"></textarea>');
+			var sub = $('<label for="entry.22406345">What makes this person great for boards?</label>');
+			var a1 = $('<textarea class="form-control" id="nineEndorsement" name="entry.22406345" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
 
@@ -419,7 +419,7 @@ define(['jquery'], function($) {
 		tenEnd:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
 			var sub = $('<label for="entry.394669954">What makes this person great for boards?</label>');
-			var a1 = $('<textarea class="form-control" id="tenEndorsement" name="entry.394669954" rows="5"></textarea>');
+			var a1 = $('<textarea class="form-control" id="tenEndorsement" name="entry.1942943631" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
 
