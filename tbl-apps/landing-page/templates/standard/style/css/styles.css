@@ -1,0 +1,31 @@
+/* COLORS */
+.blue{color:#2E3650;}
+.blue-bg{background:#2E3650;}
+.red{color:#E54237;}
+.red-bg{background:#E54237;}
+.gray{color:#979FA8;}
+.gray-bg{background:#979FA8;}
+.white{color:#F6F6F6;}
+.white-bg{background:#F6F6F6;}
+
+/* BUTTONS */
+.btn.btn-primary{
+  border: 2px solid #F6F6F6;
+  color: #F6F6F6;
+  background: rgba(246,246,246,0.4);
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 0 2px 2px rgba(0,0,0,0.24);
+}
+
+/* HEADER */
+header{
+  padding: 30px 15px 25px;
+  background: #ffffff;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 0 2px 2px rgba(0,0,0,0.24);
+}
+header .blue-bg{
+  position: absolute;
+  height: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+}

@@ -54,12 +54,12 @@ p {
 a, a:visited{
   text-decoration: none;
   font-weight: 600;
-  color: #0563C1;
+  color: #E54237;
 }
 a:hover, a:active, a:focus{
   text-decoration: none;
   font-weight: 600;
-  color: #034587;
+  color: #E54237;
 }
 
 /* WEIGHTS */
@@ -83,7 +83,3 @@ a:hover, a:active, a:focus{
 .capital {text-transform:capitalize;}
 .center {text-align: center;}
 .text-shadow{text-shadow: 0 0 2px rgba(0,0,0,0.22), 0 2px 2px rgba(0,0,0,0.3);}
-
-/* COLORS */
-.blue{color:#0AA7B6;}
-.orange{color:#E07D28;}
