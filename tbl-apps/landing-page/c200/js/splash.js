@@ -1,8 +1,9 @@
 define(['jquery','model'], function($,model) {
 	var splash = {
 		ui:$('<div class="col-sm-12 col-xs-12 splash"></div>'),
-		content:$('<div class="col-md-8 col-sm-10 col-xs-12 content"></div>'),
+		content:$('<div class="col-sm-8 col-xs-12 content"></div>'),
 		callOut:$('<h1 class="col-sm-12 light center">'+model.hook+'</h1>'),
+		btngrp:$('<div class="col-sm-12 cta-btns center"></div>'),
 		cta:function(name,url){
 			var item = $('<a href="'+url+'" class="btn btn-primary">'+name+'</a>');
 
@@ -10,10 +11,10 @@ define(['jquery','model'], function($,model) {
 		}
 	};
 	splash.ui.append(splash.content)
-	splash.content.append(splash.callOut);
+	splash.content.append(splash.callOut).append(splash.btngrp);
 
 	model.ctaBtns.forEach(function(i){
-		splash.content.append(new splash.cta(i.name,i.url));
+		splash.btngrp.append(new splash.cta(i.name,i.url));
 	});
 
 	return splash;
