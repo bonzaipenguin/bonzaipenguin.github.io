@@ -5,7 +5,7 @@ define(['jquery','model'], function($,model) {
 		callOut:$('<h1 class="col-sm-12 light-accent center">'+model.hook+'</h1>'),
 		btngrp:$('<div class="col-sm-12 cta-btns center"></div>'),
 		cta:function(name,url){
-			var item = $('<a href="'+url+'" class="btn btn-primary">'+name+'</a>');
+			var item = $('<a href="'+url+'" class="btn btn-primary" target="_self">'+name+'</a>');
 
 			return item;
 		}

@@ -6,7 +6,7 @@ define(['jquery','model'], function($,model) {
 			var item = $('<div class="org-lg hidden-md-down"></div>');
 			var title = $('<h5 class="primary">'+name+'</h5>');
 			var copy = $('<p>'+info+'</p>');
-			var link = $('<a href="'+url+'">'+link+'</a>');
+			var link = $('<a href="'+url+'" target="_self">'+link+'</a>');
 			item.append(title).append(copy).append(link);
 
 			return item;
@@ -15,7 +15,7 @@ define(['jquery','model'], function($,model) {
 			var item = $('<div class="org-sm col-sm-12 hidden-lg-up"></div>');
 			var title = $('<h5 class="primary">'+name+'</h5>');
 			var copy = $('<p>'+info+'</p>');
-			var link = $('<a href="'+url+'">'+link+'</a>');
+			var link = $('<a href="'+url+'" target="_self">'+link+'</a>');
 			item.append(title).append(copy).append(link);
 
 			return item;
