@@ -1,17 +1,16 @@
 /* BASE STYLES */
-.layer{
-  width: 100%;
-  position: relative;
-  float: left;
+section.row{
   padding-top: 70px;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 100;
 }
-.layer.gray{background-color:#EEEEEE;}
-.layer.white{background-color:#FFFFFF;}
+section.row.gray{background-color:#EEEEEE;}
+section.row.white{background-color:#FFFFFF;}
 .btn.btn-cta {
-  font-size: 24px;
+  font-size: 1.5rem;
   min-width: 90px;
-  padding: 16px 24px;
+  padding: 15px 25px;
   letter-spacing: 1.7px;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -24,17 +23,24 @@
   background-color: #034587;
   box-shadow: none;
 }
+.hidden{
+  display:none !important;
+}
 
 /* HEADER */
 header{
   background: rgba(255,255,255,0.75);
   height: 90px;
   position: relative;
-  z-index: 100;
-  padding-top: 21px;
+  z-index: 110;
+  padding: 20px 30px;
+}
+.til-logo {
+  margin-bottom: 0;
+  line-height: 50px;
 }
 .top-nav li {
-  padding: 0 16px;
+  padding: 0 15px;
   border-right: 2px solid #1f1f1f;
 }
 .top-nav li:last-of-type{
@@ -42,7 +48,6 @@ header{
 }
 
 .top-nav li a {
-  font-size: 16px;
   font-weight: 600;
   color: #1f1f1f;
   text-transform: uppercase;
@@ -51,30 +56,34 @@ header{
 
 .top-nav {
   margin-bottom: 0;
-  margin-top: 13px;
-}
-
-.til-logo {
-  margin-bottom: 0;
-  line-height: 48px;
+  margin-top: 15px;
 }
 .user-profile,
 .avatar {
   float: right;
   cursor: pointer;
 }
-.user-menu {
+.user-menu,
+.mobile-menu {
   background: #fafafa;
   border: #f5f5f5;
   border-radius: 2px;
   height: 176px;
-  padding: 16px 0 24px;
+  padding: 15px 0 25px;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
   position: absolute;
   right: 15px;
   top: 48px;
+  z-index: 110;
 }
-.user-menu:before {
+.user-menu{
+  height: 176px;
+}
+.mobile-menu{
+  height: 306px;
+}
+.user-menu:before,
+.mobile-menu:before {
   content: '';
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
@@ -83,22 +92,31 @@ header{
   top: -8px;
   right: 15px;
 }
-.user-menu li a {
-  font-size: 16px;
+.user-menu li a,
+.mobile-menu li a {
   font-weight: 400;
   color: #1f1f1f;
 }
-.user-menu li {
-  padding: 5px 36px 8px 16px;
+.user-menu li,
+.mobile-menu li {
+  padding: 5px 35px 10px 15px;
 }
-.user-menu li:hover {
+.user-menu li:hover,
+.mobile-menu li:hover {
   background: #f5f5f5;
+}
+.mobile-menu .list-group-item{
+  background: #fafafa;
+}
+.mobile-nav .material-icons{
+  line-height: 50px;
 }
 
 /* SPLASH LAYER */
-.layer.splash {
+section.splash {
   padding-top:80px;
-  height: 70vh;
+  min-height: 545px;
+  height:70vh;
   background: -moz-linear-gradient(top, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.25) 100%);
   background: -webkit-linear-gradient(top, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.25) 100%);
   background: linear-gradient(to bottom, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.25) 100%);
@@ -113,16 +131,18 @@ header{
 .splash .btn-cta{
   width:230px;
 }
-.join-text h4{
-  margin-top: 16px;
-  margin-bottom: 4px;
-  font-weight: 700;
+.join-text{
+  padding-top:15px;
+}
+.join-text h5{
+  margin-top: 0;
+  margin-bottom: 2px;
 }
 .join-text a, .join-text a:visited{
-  font-size: 16px;
   text-decoration: none;
   font-weight: 700;
   color: #0563C1;
+  font-size: 1.25rem;
 }
 .join-text a:hover, .join-text a:active, .join-text a:focus{
   text-decoration: none;

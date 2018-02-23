@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
 	var benefits = {
-		ui:$('<div class="layer white benefits"></div>'),
+		ui:$('<section class="row white benefits"></section>'),
 	};
 
 	return benefits;

@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
 	var general = {
-		ui:$('<div class="layer white general"></div>'),
+		ui:$('<section class="row white general"></section>'),
 	};
 
 	return general;

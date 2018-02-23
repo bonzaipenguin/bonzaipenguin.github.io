@@ -1,15 +1,16 @@
 define(['jquery','model'], function($,model) {
 
 	var header = {
-		ui:$('<div class="col-lg-10 col-lg-offset-1 col-med-12"></div>'),
-		name:$('<h2 class="col-lg-3 col-med-6 til-logo">'+model.logo+'</h2>'),
-		nav:$('<ul class="col-lg-6 col-med-12 col-xs-hidden list-inline list-unstyled center top-nav"></ul>'),
+		ui:$('<header class="row"></header>'),
+		name:$('<div class="col-sm col-10"><h2 class="til-logo">'+model.logo+'</h2></div>'),
+		nav:$('<ul class="col-sm d-hidden d-none d-xl-block list-inline list-unstyled center top-nav"></ul>'),
 		navItem: function(url,name){
-			var item = $('<li><a href="'+url+'" target="_blank">'+name+'</a></li>');
+			var item = $('<li class="list-inline-item"><a href="'+url+'" target="_blank">'+name+'</a></li>');
 
-			return item
+			return item;
 		},
-		user:$('<div class="user-profile"></div>'),
+		rThird:$('<div class="col-sm col-2"></div>'),
+		user:$('<div class="d-none d-xl-block user-profile"></div>'),
 		userImg:function(){
 			var item = $('<div class="avatar"></div>');
 			item.css({
@@ -17,8 +18,8 @@ define(['jquery','model'], function($,model) {
 				'background-size':'cover',
 				'border':'2px solid #ffffff',
 				'border-radius':'50%',
-				'height':'48px',
-				'width':'48px',
+				'height':'45px',
+				'width':'45px',
 				'box-shadow':'0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24)'
 			});
 			item.on('click',function(){
@@ -30,25 +31,52 @@ define(['jquery','model'], function($,model) {
 					$('.user-menu').addClass('hidden');
 				}
 			});
-			return item
+			return item;
 		},
-		dd:$('<div class="user-menu hidden"></div>'),
-		ddList:$('<ul class="list-unstyled drop-down"></ul>'),
-		ddItem:function(url,name){
+		userDD:$('<div class="user-menu hidden"></div>'),
+		userList:$('<ul class="list-unstyled drop-down"></ul>'),
+		userItem:function(url,name){
 			var item = $('<li><a href="'+url+'" target="_blank">'+name+'</a></li>');
 
-			return item
+			return item;
+		},
+		mNav:$('<div class="d-xl-none mobile-nav text-right"></div>'),
+		mobileIcon:function(){
+			var item = $('<i class="material-icons">menu</i>');
+			item.on('click',function(){
+				if ($('.mobile-menu').hasClass('hidden')) {
+					console.log('yup');
+					$('.mobile-menu').removeClass('hidden');
+				} else {
+					console.log('nope');
+					$('.mobile-menu').addClass('hidden');
+				}
+			});
+
+			return item;
+		},
+		mobileDD:$('<div class="mobile-menu hidden"></div>'),
+		mobileList:$('<ul class="list-group list-group-flush drop-down text-left"></ul>'),
+		mobileItem:function(url,name){
+			var item = $('<li class="list-group-item"><a href="'+url+'" target="_blank">'+name+'</a></li>');
+
+			return item;
 		}
 	};
-	header.ui.append(header.name).append(header.nav).append(header.user);
+	header.ui.append(header.name).append(header.nav).append(header.rThird);
 
 	model.topNav.forEach(function(i){
 		header.nav.append(new header.navItem(i.url,i.name));
+		header.mobileList.append(new header.mobileItem(i.url,i.name));
 	});
 
-	header.user.append(header.userImg).append(header.dd.append(header.ddList));
+	header.rThird.append(header.user).append(header.mNav);
+	header.mNav.append(header.mobileIcon).append(header.mobileDD.append(header.mobileList));
+
+	header.user.append(header.userImg).append(header.userDD.append(header.userList));
 	model.userList.forEach(function(i){
-		header.ddList.append(new header.ddItem(i.url,i.name));
+		header.userList.append(new header.userItem(i.url,i.name));
+		header.mobileList.append(new header.mobileItem(i.url,i.name));
 	});
 
 	return header;

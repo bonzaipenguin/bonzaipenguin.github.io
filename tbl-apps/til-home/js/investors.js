@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
 	var investors = {
-		ui:$('<div class="layer gray investors"></div>'),
+		ui:$('<section class="row gray investors"></section>'),
 	};
 
 	return investors;

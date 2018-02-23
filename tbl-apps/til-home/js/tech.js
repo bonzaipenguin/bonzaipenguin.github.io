@@ -1,7 +1,7 @@
 define(['jquery','model'], function($,model) {
 
 	var tech = {
-		ui:$('<div class="layer white tech"></div>'),
+		ui:$('<section class="row white tech"></section>'),
 	};
 
 	return tech;
