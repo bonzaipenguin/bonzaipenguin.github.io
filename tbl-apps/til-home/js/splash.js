@@ -13,10 +13,9 @@ define(['jquery','model'], function($,model) {
 			});
 
 			return item;
-		},
-		join:$('<div class="join-text"><h5 class="medium upper center text-shadow">'+model.introPanel.joinUs+' <a href="#" class="medium upper center text-shadow">'+model.introPanel.joinLink+'</a></h5></div>')
+		}
 	};
-	splash.ui.append(splash.container.append(splash.title).append(splash.cta.append(splash.ctaBTN).append(splash.join)));
+	splash.ui.append(splash.container.append(splash.title).append(splash.cta.append(splash.ctaBTN)));
 
 	return splash;
 });

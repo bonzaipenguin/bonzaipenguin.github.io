@@ -17,9 +17,7 @@ var model = {
 	introPanel:{
 		splashImg:'style/img/til_splash.jpg',
 		hook:'Join over 1,000 tech industry leaders to discover and invest in outstanding female&nbspentreprenuers',
-		cta:'Discover',
-		joinUs:'need an account?',
-		joinLink:'join'
+		cta:'Discover'
 	},
 	techInfo:{
 		title:'underinvestment in female founders',
