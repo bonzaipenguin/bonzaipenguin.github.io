@@ -13,8 +13,9 @@ define(['jquery'], function($) {
 			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.1553795584">Last Name</label><input class="form-control" type="text" name="entry.1553795584"></div>');
 			var a3 = $('<div class="form-group col-sm-12"><label for="entry.376483212">LinkedIn Profile (Optional)</label><input class="form-control" type="text" name="entry.376483212"></div>');
 			var a4 = $('<div class="form-group col-sm-12 required"><label for="entry.745559345">Email Address</label><input class="form-control" type="email" name="entry.745559345"></div>');
-
-			item.append(title).append(a1).append(a2).append(a3).append(a4);
+			var a5 = $('<div class="form-group col-sm-6 required"><label for="entry.967342301">Title</label><input class="form-control" type="text" name="entry.967342301"></div>');
+			var a6 = $('<div class="form-group col-sm-6 required"><label for="entry.830090482">Current Company</label><input class="form-control" type="text" name="entry.830090482"></div>');
+			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6);
 
 			return item;
 		},
