@@ -38,7 +38,16 @@ var model = {
 		]
 	},
 	investors:{
-		community:['style/img/investor-1.png','style/img/investor-2.png','style/img/investor-3.png','style/img/investor-4.png','style/img/company-1.png','style/img/company-2.png','style/img/company-3.png','style/img/company-4.png'],
+		community:[
+			{type:'circle-img',pic:'style/img/investor-1.png'},
+			{type:'circle-img',pic:'style/img/investor-2.png'},
+			{type:'circle-img',pic:'style/img/investor-3.png'},
+			{type:'circle-img',pic:'style/img/investor-4.png'},
+			{type:'circle-img',pic:'style/img/company-1.png'},
+			{type:'circle-img',pic:'style/img/company-2.png'},
+			{type:'circle-img',pic:'style/img/company-3.png'},
+			{type:'circle-img',pic:'style/img/company-4.png'}
+		],
 		title:'the best female-led startups',
 		subtitle:'In a community driven platform for investors',
 		copy:'theInvestlist is a platform for male and female tech leaders to recommend, discover and invest in outstanding female-led startups'
