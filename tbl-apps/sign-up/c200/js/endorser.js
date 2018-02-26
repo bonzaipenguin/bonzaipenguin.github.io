@@ -1,7 +1,7 @@
 define(['jquery'], function($) {
 
 	var endorser = {
-		ui:$('<div></div>'),
+		ui:$('<div class="endorser"></div>'),
 		reScript:$('<script type="text/javascript">var submitted=false;</script>'),
 		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLScP1tMvGsQ4NAPW8ssVgn2moDyUjMw2Z8XUpCz1dvOcKBX72g/formResponse" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application" method="post" onsubmit="submitted=true;" target="hidden_iframe"></form>'),
 		pageTitle:$('<h2 class="col-sm-12 col-xs-12 form-title">Endorser Member Application</h2>'),
