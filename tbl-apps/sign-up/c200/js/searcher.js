@@ -19,7 +19,7 @@ define(['jquery'], function($) {
 
 			return item;
 		},
-		searchInfo:$('<div class="col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill</h5></div>'),
+		searchInfo:$('<div class="col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill.</h5></div>'),
 		company:$('<div class="form-group col-sm-12 required"><label for="entry.2034289101">Company Name</label><input class="form-control" type="text" name="entry.2034289101"></div>'),
 		annual:function(){
 			var item = $('<div class="col-md-4 col-sm-12 form-group required"></div>');
