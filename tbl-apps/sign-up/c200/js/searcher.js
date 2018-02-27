@@ -9,18 +9,18 @@ define(['jquery'], function($) {
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
-			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1144094578">First Name</label><input class="form-control" type="text" name="entry.1144094578"></div>');
-			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2145697395">Last Name</label><input class="form-control" type="text" name="entry.2145697395"></div>');
+			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1144094578">First Name</label><input class="form-control" type="text" name="entry.1144094578" required></div>');
+			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2145697395">Last Name</label><input class="form-control" type="text" name="entry.2145697395" required></div>');
 			var a3 = $('<div class="form-group col-sm-12"><label for="entry.1454272603">LinkedIn Profile</label><input class="form-control" type="text" name="entry.1454272603"></div>');
-			var a4 = $('<div class="form-group col-sm-12 required"><label for="entry.701231498">Email Address</label><input class="form-control" type="email" name="entry.701231498"></div>');
-			var a5 = $('<div class="form-group col-sm-6 required"><label for="entry.980473753">Title</label><input class="form-control" type="text" name="entry.980473753"></div>');
-			var a6 = $('<div class="form-group col-sm-6 required"><label for="entry.205028409">Current Company</label><input class="form-control" type="text" name="entry.205028409"></div>');
+			var a4 = $('<div class="form-group col-sm-12 required"><label for="entry.701231498">Email Address</label><input class="form-control" type="email" name="entry.701231498" required></div>');
+			var a5 = $('<div class="form-group col-sm-6 required"><label for="entry.980473753">Title</label><input class="form-control" type="text" name="entry.980473753" required></div>');
+			var a6 = $('<div class="form-group col-sm-6 required"><label for="entry.205028409">Current Company</label><input class="form-control" type="text" name="entry.205028409" required></div>');
 			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6);
 
 			return item;
 		},
 		searchInfo:$('<div class="col-sm-12 info"><h3 class="blue">Open Board Seat Info</h3><h5>Tell us about the board seat you\'re looking to fill.</h5></div>'),
-		company:$('<div class="form-group col-sm-12 required"><label for="entry.2034289101">Company Name</label><input class="form-control" type="text" name="entry.2034289101"></div>'),
+		company:$('<div class="form-group col-sm-12 required"><label for="entry.2034289101">Company Name</label><input class="form-control" type="text" name="entry.2034289101" required></div>'),
 		annual:function(){
 			var item = $('<div class="col-md-4 col-sm-12 form-group required"></div>');
 			var title = $('<label for="">Annual Revenue</label>');

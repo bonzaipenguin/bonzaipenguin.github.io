@@ -9,12 +9,12 @@ define(['jquery'], function($) {
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
-			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1015790028" class="required">First Name</label><input class="form-control" type="text" name="entry.1015790028"></div>');
-			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.1317844887" class="required">Last Name</label><input class="form-control" type="text" name="entry.1317844887"></div>');
+			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1015790028" class="required">First Name</label><input class="form-control" type="text" name="entry.1015790028" required></div>');
+			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.1317844887" class="required">Last Name</label><input class="form-control" type="text" name="entry.1317844887" required></div>');
 			var a3 = $('<div class="form-group col-sm-12"><label for="entry.942792878">LinkedIn Profile</label><input class="form-control" type="text" name="entry.942792878"></div>');
-			var a4 = $('<div class="form-group col-sm-6 required"><label for="entry.808969688" class="required">Current Company</label><input class="form-control" type="text" name="entry.808969688"></div>');
-			var a5 = $('<div class="form-group col-sm-6 required"><label for="entry.272533366" class="required">Current Title</label><input class="form-control" type="text" name="entry.272533366"></div>');
-			var a6 = $('<div class="form-group col-sm-12 required"><label for="entry.1116197455" class="required">Personal Email Address</label><input class="form-control" type="email" name="entry.1116197455"></div>');
+			var a4 = $('<div class="form-group col-sm-6 required"><label for="entry.808969688" class="required">Current Company</label><input class="form-control" type="text" name="entry.808969688" required></div>');
+			var a5 = $('<div class="form-group col-sm-6 required"><label for="entry.272533366" class="required">Current Title</label><input class="form-control" type="text" name="entry.272533366" required></div>');
+			var a6 = $('<div class="form-group col-sm-12 required"><label for="entry.1116197455" class="required">Personal Email Address</label><input class="form-control" type="email" name="entry.1116197455" required></div>');
 
 			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6);
 
@@ -34,12 +34,12 @@ define(['jquery'], function($) {
 			var exp2 = $('<div class=""><h6 class="sub-title italic">And must have experience serving on:</h6></div>');
 			var list2 = $('<ul></ul>');
 			var i4 = $('<li>A Public Board</li>');
-			var i5 = $('<li>A Private Board</li>');
+			var i5 = $('<li>A Private Board, or</li>');
 			var i6 = $('<li>A Non-Profit Board</li>');
 
-			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1979856146" class="required">First Name</label><input class="form-control" type="text" name="entry.1979856146"></div>');
-			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2036822264" class="required">Last Name</label><input class="form-control" type="text" name="entry.2036822264"></div>');
-			var a3 = $('<div class="form-group col-sm-12 required"><label for="entry.914674720" class="required">Email Address</label><input class="form-control" type="email" name="entry.914674720"></div>');
+			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1979856146" class="required">First Name</label><input class="form-control" type="text" name="entry.1979856146" required></div>');
+			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2036822264" class="required">Last Name</label><input class="form-control" type="text" name="entry.2036822264" required></div>');
+			var a3 = $('<div class="form-group col-sm-12 required"><label for="entry.914674720" class="required">Email Address</label><input class="form-control" type="email" name="entry.914674720" required></div>');
 
 			item.append(title).append(sub).append(exp1.append(list1)).append(exp2.append(list2)).append(a1).append(a2).append(a3);
 			list1.append(i1).append(i2).append(i3);
