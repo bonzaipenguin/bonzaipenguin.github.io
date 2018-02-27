@@ -23,24 +23,33 @@ define(['jquery'], function($) {
 		endorserInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Endorser</h3>');
-			var sub = $('<h5>Ask someone who meets the criteria for an Endorser Member to join theBoardlist and nominate you.</h5>');
-			var exp = $('<h6 class="sub-title italic">Endorsing Members must meet one of the below criteria:</h6>');
-			var list = $('<ul></ul>');
-			var i1 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
-			var i2 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
-			var i3 = $('<li>Directors at companies with $500m+ revenue</li>');
+			var sub = $('<h5>Request a nomination from someone you know who meets theBoardlist\'s Endorser Member criteria.</h5>');
+
+			var exp1 = $('<div class=""><h6 class="sub-title italic">Endorsing Members must meet one of the below criteria:</h6></div>');
+			var list1 = $('<ul></ul>');
+			var i1 = $('<li>A CEO or C-suite of a company with at least one round of institutional funding</li>');
+			var i2 = $('<li>A seed, VC, or a private equity investor, or</li>');
+			var i3 = $('<li>An influencer, thought leader, or domain expert in their industry</li>');
+
+			var exp2 = $('<div class=""><h6 class="sub-title italic">And must have experience serving on:</h6></div>');
+			var list2 = $('<ul></ul>');
+			var i4 = $('<li>A Public Board</li>');
+			var i5 = $('<li>A Private Board</li>');
+			var i6 = $('<li>A Non-Profit Board</li>');
+
 			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1979856146" class="required">First Name</label><input class="form-control" type="text" name="entry.1979856146"></div>');
 			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2036822264" class="required">Last Name</label><input class="form-control" type="text" name="entry.2036822264"></div>');
 			var a3 = $('<div class="form-group col-sm-12 required"><label for="entry.914674720" class="required">Email Address</label><input class="form-control" type="email" name="entry.914674720"></div>');
 
-			item.append(title).append(sub).append(exp).append(list).append(a1).append(a2).append(a3);
-			list.append(i1).append(i2).append(i3);
+			item.append(title).append(sub).append(exp1.append(list1)).append(exp2.append(list2)).append(a1).append(a2).append(a3);
+			list1.append(i1).append(i2).append(i3);
+			list2.append(i4).append(i5).append(i6);
 			return item;
 		},
 		endo:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<label for="entry.223694585">What do you want your endorser to say?</label>');
-			var a1 = $('<textarea class="form-control" id="oneEndorsement" name="entry.223694585" rows="5" placeholder="What makes this person great for boards?"></textarea>');
+			var sub = $('<label for="entry.223694585">Draft a short recommendation for your Endorser to edit and approve for you.</label>');
+			var a1 = $('<textarea class="form-control" id="oneEndorsement" name="entry.223694585" rows="5"></textarea>');
 
 			item.append(sub).append(a1);
 
