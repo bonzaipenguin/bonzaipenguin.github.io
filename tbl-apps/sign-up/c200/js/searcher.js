@@ -11,11 +11,12 @@ define(['jquery'], function($) {
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
 			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1144094578">First Name</label><input class="form-control" type="text" name="entry.1144094578" required></div>');
 			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2145697395">Last Name</label><input class="form-control" type="text" name="entry.2145697395" required></div>');
-			var a3 = $('<div class="form-group col-sm-12"><label for="entry.1454272603">LinkedIn Profile</label><input class="form-control" type="text" name="entry.1454272603"></div>');
-			var a4 = $('<div class="form-group col-sm-12 required"><label for="entry.701231498">Email Address</label><input class="form-control" type="email" name="entry.701231498" required></div>');
-			var a5 = $('<div class="form-group col-sm-6 required"><label for="entry.980473753">Title</label><input class="form-control" type="text" name="entry.980473753" required></div>');
-			var a6 = $('<div class="form-group col-sm-6 required"><label for="entry.205028409">Current Company</label><input class="form-control" type="text" name="entry.205028409" required></div>');
-			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6);
+			var a3 = $('<div class="form-group col-sm-6"><label for="entry.1454272603">LinkedIn Profile</label><input class="form-control" type="text" name="entry.1454272603"></div>');
+			var a4 = $('<div class="form-group col-sm-6 required"><label for="entry.1690980798">Your Location</label><input class="form-control" type="text" name="entry.1690980798" required></div>');
+			var a5 = $('<div class="form-group col-sm-12 required"><label for="entry.701231498">Email Address</label><input class="form-control" type="email" name="entry.701231498" required></div>');
+			var a6 = $('<div class="form-group col-sm-6 required"><label for="entry.980473753">Title</label><input class="form-control" type="text" name="entry.980473753" required></div>');
+			var a7 = $('<div class="form-group col-sm-6 required"><label for="entry.205028409">Current Company</label><input class="form-control" type="text" name="entry.205028409" required></div>');
+			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6).append(a7);
 
 			return item;
 		},
