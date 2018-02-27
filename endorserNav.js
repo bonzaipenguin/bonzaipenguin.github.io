@@ -1,6 +1,7 @@
 $('document').ready(function(){
   $('button[type="submit"]').on('click',function(){
     $('form').addClass('errors');
+    console.log('any errors?);
   });
   
   $('.add').on('click',function(){
