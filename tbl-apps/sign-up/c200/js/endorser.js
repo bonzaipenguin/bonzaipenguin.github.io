@@ -25,8 +25,8 @@ define(['jquery'], function($) {
 			var sub = $('<h5 class="medium required">Click all that apply:</h5>');
 			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="Public">Public board</label></div>');
 			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="Private">Private board</label></div>');
-			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="Non-Profit">Non-Profit</label></div>');
-			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="Advisory">Advisory</label></div>');
+			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="Non-Profit">Non-Profit Board</label></div>');
+			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="Advisory">Advisory Board</label></div>');
 			var a5 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1197986892"><input class="form-check-input" type="checkbox" name="entry.1197986892" value="None">N/A</label></div>');
 
 			item.append(title).append(sub).append(a1).append(a2).append(a3).append(a4).append(a5);
@@ -52,13 +52,22 @@ define(['jquery'], function($) {
 		oneInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Endorse a Candidate</h3>');
-			var sub = $('<h5 class="sub-title">Please provide your endorsement for up to 10 women you\'d like to recommend for board&nbspopportunities.</h5>');
+			var sub = $('<h5 class="sub-title">Please provide your endorsement for up to 10 women you\'d like to recommend for board opportunities.</h5>');
+
+			var exp = $('<h6 class="sub-title italic">We suggest, though it\'s not required, that candidates meet one of the below criteria:</h6>');
+			var list = $('<ul></ul>');
+			var i1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
+			var i2 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
+			var i3 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
+			var i4 = $('<li>Directors at companies with $500m+ revenue</li>');
+
 			var a1 = $('<div class="form-group required col-sm-6"><label for="entry.468064091">First Name</label><input class="form-control" type="text" name="entry.468064091" required></div>');
 			var a2 = $('<div class="form-group required col-sm-6"><label for="entry.1601237140">Last Name</label><input class="form-control" type="text" name="entry.1601237140" required></div>');
 			var a3 = $('<div class="form-group required col-sm-12"><label for="entry.1721804389">Email Address</label><input class="form-control" type="email" name="entry.1721804389" required></div>');
 			var a4 = $('<div class="form-group required col-sm-12"><label for="entry.2031553035">Current Company</label><input class="form-control" type="text" name="entry.2031553035" required></div>');
 
-			item.append(title).append(sub).append(a1).append(a2).append(a3).append(a4);
+			item.append(title).append(sub).append(exp).append(list).append(a1).append(a2).append(a3).append(a4);
+			list.append(i1).append(i2).append(i3).append(i4);
 
 			return item;
 		},
