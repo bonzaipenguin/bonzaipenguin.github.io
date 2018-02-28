@@ -50,7 +50,7 @@ define(['jquery'], function($) {
 		},
 		endBoard:function(){
 			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var sub = $('<h5 class="medium">Your Endorser has served on:<span>(Click all that apply)</span></h5>');
+			var sub = $('<h5 class="medium">Your Endorser has served on:<span class="click-all">(Click all that apply)</span></h5>');
 			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1498514549"><input class="form-check-input" type="checkbox" name="entry.1498514549" value="Public">Public board</label></div>');
 			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1498514549"><input class="form-check-input" type="checkbox" name="entry.1498514549" value="Private">Private board</label></div>');
 			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1498514549"><input class="form-check-input" type="checkbox" name="entry.1498514549" value="Non-Profit">Non-Profit Board</label></div>');
