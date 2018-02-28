@@ -38,14 +38,25 @@ define(['jquery'], function($) {
 			var i5 = $('<li>A Private Board, or</li>');
 			var i6 = $('<li>A Non-Profit Board</li>');
 
-			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1979856146" class="required">First Name</label><input class="form-control" type="text" name="entry.1979856146" required></div>');
-			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.2036822264" class="required">Last Name</label><input class="form-control" type="text" name="entry.2036822264" required></div>');
-			var a3 = $('<div class="form-group col-sm-6 required"><label for="entry.914674720" class="required">Email Address</label><input class="form-control" type="email" name="entry.914674720" required></div>')
-			var a4 = $('<div class="form-group col-sm-6 required"><label for="entry.260799283" class="required">Location</label><input class="form-control" type="text" name="entry.260799283" required></div>');
+			var a1 = $('<div class="form-group col-sm-6"><label for="entry.1979856146">First Name</label><input class="form-control" type="text" name="entry.1979856146"></div>');
+			var a2 = $('<div class="form-group col-sm-6"><label for="entry.2036822264">Last Name</label><input class="form-control" type="text" name="entry.2036822264"></div>');
+			var a3 = $('<div class="form-group col-sm-6"><label for="entry.914674720">Email Address</label><input class="form-control" type="email" name="entry.914674720"></div>')
+			var a4 = $('<div class="form-group col-sm-6"><label for="entry.260799283">Location</label><input class="form-control" type="text" name="entry.260799283"></div>');
 
 			item.append(title).append(sub).append(exp1.append(list1)).append(exp2.append(list2)).append(a1).append(a2).append(a3).append(a4);
 			list1.append(i1).append(i2).append(i3);
 			list2.append(i4).append(i5).append(i6);
+			return item;
+		},
+		endBoard:function(){
+			var item = $('<div class="col-sm-12 form-group info"></div>');
+			var sub = $('<h5 class="medium">Your Endorser has served on:<span>(Click all that apply)</span></h5>');
+			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1498514549"><input class="form-check-input" type="checkbox" name="entry.1498514549" value="Public">Public board</label></div>');
+			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1498514549"><input class="form-check-input" type="checkbox" name="entry.1498514549" value="Private">Private board</label></div>');
+			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.1498514549"><input class="form-check-input" type="checkbox" name="entry.1498514549" value="Non-Profit">Non-Profit Board</label></div>');
+
+			item.append(sub).append(a1).append(a2).append(a3);
+
 			return item;
 		},
 		endo:function(){
@@ -66,7 +77,7 @@ define(['jquery'], function($) {
 		}
 	};
 	candidate.ui.append(candidate.form);
-	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.endorserInfo).append(candidate.endo).append(candidate.sub);
+	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.endorserInfo).append(candidate.endBoard).append(candidate.endo).append(candidate.sub);
 
 
 	return candidate;
