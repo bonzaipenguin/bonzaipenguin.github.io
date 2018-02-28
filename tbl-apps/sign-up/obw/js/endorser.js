@@ -3,7 +3,7 @@ define(['jquery'], function($) {
 	var endorser = {
 		ui:$('<div class="endorser"></div>'),
 		reScript:$('<script type="text/javascript">var submitted=false;</script>'),
-		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLSfJc-VcNH5xfoti9kehrbMz28TNbVEX32dt8rYp8Q0JiiPjwQ/formResponse" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application" method="post" onsubmit="submitted=true;" target="hidden_iframe"></form>'),
+		form:$('<form action="https://docs.google.com/forms/d/e/1FAIpQLSfln6L0VeMdU4nPYqg8YJqGgUEkWpGcOUFs8i8nPlNpfXizHw/formResponse" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 application" method="post" onsubmit="submitted=true;" target="hidden_iframe"></form>'),
 		pageTitle:$('<h2 class="col-sm-12 col-xs-12 form-title">Endorser Member Application</h2>'),
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
