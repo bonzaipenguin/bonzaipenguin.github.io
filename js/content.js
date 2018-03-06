@@ -2,8 +2,8 @@ define(['jquery','model'], function($,model) {
 
 	var content = {
 		ui:$('<section class=""></section>'),
-		mine:$('<div class="col-sm"></div>'),
-		work:$('<div class="col-sm"></div>'),
+		mine:$('<div class="col-sm-6"></div>'),
+		work:$('<div class="col-sm-6"></div>'),
 		myHead:$('<h3>Personal Work</h3>'),
 		workHead:$('<h3>Work Projects</h3>'),
 		myList:$('<ul class="project-list" data-type="personal"></ul>'),
@@ -25,12 +25,7 @@ define(['jquery','model'], function($,model) {
 	content.mine.append(content.myHead).append(content.myList);
 	content.work.append(content.workHead).append(content.workList);
 	model.projectList.forEach(function(i){
-		if(model.projectList.type == 'personal'){
-			model.myList.append(new content.projs(i.type,i.url,i.name,i.group));
-		}
-		if(model.projectList.type == 'work'){
-			model.workList.append(new content.projs(i.type,i.url,i.name,i.group));
-		}
+		content.myList.append(new content.projs(i.type,i.url,i.name,i.group));
 	});
 
 	return content;
