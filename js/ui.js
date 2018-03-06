@@ -1,11 +1,10 @@
 define(['jquery','model','content'], function($,model,content) {
 
 	var ui = {
-		ui: $('<section class="container-fluid"></section>'),
-		headerRow: $('<header></header>'),
-		mainRow: $('<div class="row"></div>')
+		ui: $('<section></section>'),
+		mainRow: $('<div class="container-fluid"></div>')
 	};
-	ui.ui.append(ui.headerRow).append(ui.mainRow);
+	ui.ui.append(ui.mainRow);
 	ui.mainRow.append(content.ui);
 
 
