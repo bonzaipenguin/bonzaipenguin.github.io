@@ -37,16 +37,16 @@ var model = {
 			{stat:'2 <span>x</span>', context:'Women more often start buisinesses vs. men'}
 		]
 	},
-	investors:{
+	investor:{
 		community:[
-			{type:'circle-img',pic:'style/img/investor-1.png'},
-			{type:'circle-img',pic:'style/img/investor-2.png'},
-			{type:'circle-img',pic:'style/img/investor-3.png'},
-			{type:'circle-img',pic:'style/img/investor-4.png'},
-			{type:'circle-img',pic:'style/img/company-1.png'},
-			{type:'circle-img',pic:'style/img/company-2.png'},
-			{type:'circle-img',pic:'style/img/company-3.png'},
-			{type:'circle-img',pic:'style/img/company-4.png'}
+			{type:'person',name:'Chad Gellerman',position:'Gringott Holdings',pic:'style/img/investor-1.png'},
+			{type:'person',name:'Brent Jones',position:'OutdoorSport',pic:'style/img/investor-2.png'},
+			{type:'person',name:'Susan Heidle',position:'L Corps',pic:'style/img/investor-3.png'},
+			{type:'person',name:'Brian Johnson',position:'DataAnalytics Inc.',pic:'style/img/investor-4.png'},
+			{type:'firm',name:'BBG Ventures',position:'',pic:'style/img/company-1.png'},
+			{type:'firm',name:'FORRUNNER Ventures',position:'',pic:'style/img/company-2.png'},
+			{type:'firm',name:'Aspect Ventures',position:'',pic:'style/img/company-3.png'},
+			{type:'firm',name:'TechStars',position:'',pic:'style/img/company-4.png'}
 		],
 		title:'the best female-led startups',
 		subtitle:'In a community driven platform for investors',

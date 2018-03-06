@@ -160,7 +160,41 @@ section.splash {
 
 
 /* INVESTOR LAYER */
-
+.inv-comm{
+  height:120px;
+  width:120px;
+  float:left;
+  position:relative;
+}
+.inv-comm .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:120px;
+  height:120px;
+  background:rgba(0,0,0,0.6);
+  border-radius:50%;
+}
+.overlay .context{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 120px;
+  transform: translateY(-50%);
+}
+.inv-comm p{
+  font-size: 0.8rem;
+  color:#fff;
+  text-align: center;
+  line-height: 1.2rem;
+  margin-bottom:3px;
+}
+.overlay p:first-child{
+  font-weight:600;
+}
+.overlay p:last-child{
+  font-style: italic;
+}
 
 /* BENEFIT LAYER */
 
