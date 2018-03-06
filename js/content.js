@@ -25,10 +25,10 @@ define(['jquery','model'], function($,model) {
 	content.mine.append(content.myHead).append(content.myList);
 	content.work.append(content.workHead).append(content.workList);
 	model.projectList.forEach(function(i){
-		if(type == 'personal'){
+		if(model.projectList.type == 'personal'){
 			model.myList.append(new content.projs(i.type,i.url,i.name,i.group));
 		}
-		if(type == 'work'){
+		if(model.projectList.type == 'work'){
 			model.workList.append(new content.projs(i.type,i.url,i.name,i.group));
 		}
 	});
