@@ -14,10 +14,10 @@ require.config({
 });
 
 
-require( ['model','jquery','underscore','signals'], function (model,$,_,signals) { // first order includes
- require(['controller','ui'], function(controller,ui) { // second order includes
+require( ['model','jquery','underscore'], function (model,$,_) {
+ require(['ui'], function(ui) {
     function init() {
-      $('[data-el="portfolio"]').append(ui.ui);
+      $('body').append(ui.ui);
     }
   	init();
   });
