@@ -6,11 +6,11 @@ h3{
 }
 .success{
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
-
 .highlight{
   width: 250px;
   display: inline-block;
@@ -23,6 +23,8 @@ h3{
   position: relative;
   overflow: hidden;
 }
+
+/* Headshot */
 .headshot{
   position: absolute;
   width: 258px;
@@ -76,4 +78,18 @@ h3{
 }
 .overlay p{
   margin-top: 15px;
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  margin: 15px auto;
+}
+.logo.entefy {
+  width: 75px;
+  margin: 0 auto;
+  padding: 13px;
+}
+.highlight.lily{
+  background: #3f3f3f;
 }
