@@ -47,8 +47,8 @@ h3{
   background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/julie-bornstein.jpg) no-repeat top center;
   background-size: cover;
 }
-.bio.lily>.headshot{
-  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/lily-sarafan.jpg) no-repeat top center;
+.bio.judy>.headshot{
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/judy-estrin.jpg) no-repeat top center;
   background-size: cover;
 }
 .bio.christy>.headshot{
@@ -86,11 +86,4 @@ h3{
   width: 200px;
   margin: 15px auto;
 }
-.logo.entefy {
-  width: 75px;
-  margin: 0 auto;
-  padding: 13px;
-}
-.highlight.lily{
-  background: #3f3f3f;
-}
+.logo.sf{}
