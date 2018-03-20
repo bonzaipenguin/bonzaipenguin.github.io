@@ -1,0 +1,79 @@
+section{
+  padding-top: 35px
+}
+h3{
+  margin-bottom: 40px;
+}
+.success{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.highlight{
+  width: 250px;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+.bio{
+  width: 250px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.headshot{
+  position: absolute;
+  width: 258px;
+  height: 328px;
+  top: -4px;
+  left: -4px;
+  transition: all 300ms ease-in-out;
+}
+.headshot:hover{
+  -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.bio.marietta>.headshot{
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/Marietta_Davis.jpg) no-repeat top center;
+  background-size: cover;
+}
+.bio.julie>.headshot{
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/julie-bornstein.jpg) no-repeat top center;
+  background-size: cover;
+}
+.bio.lily>.headshot{
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/lily-sarafan.jpg) no-repeat top center;
+  background-size: cover;
+}
+.bio.christy>.headshot{
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/christy-wyatt.jpg) no-repeat top center;
+  background-size: cover;
+}
+.headshot.blur{
+  filter: blur(5px);
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  height: 320px;
+  width: 250px;
+  padding: 15px 10px;
+  background: rgba(0,0,0,0.6);
+  top: 250px;
+}
+.overlay h4, .overlay h6, .overlay p, .overlay a {
+  color: #ffffff;
+}
+.overlay h4{
+  margin-bottom: 5px;
+}
+.overlay h6{
+  margin-bottom: 15px;
+}
+.overlay p{
+  margin-top: 15px;
+}
