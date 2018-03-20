@@ -1,0 +1,9 @@
+section{padding-top:35px;}
+
+/* Carousel */
+.carousel-indicators li{
+  background-color: rgba(10, 167, 182,0.5);
+}
+.carousel-indicators .active{
+  background-color: #0aa7b6;
+}
