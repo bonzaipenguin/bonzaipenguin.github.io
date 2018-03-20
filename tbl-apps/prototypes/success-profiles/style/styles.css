@@ -16,6 +16,7 @@ h3{
   display: inline-block;
   margin: 0 10px;
   position: relative;
+  cursor: pointer;
 }
 .bio{
   width: 250px;
