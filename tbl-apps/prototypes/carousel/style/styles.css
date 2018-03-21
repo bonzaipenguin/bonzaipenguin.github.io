@@ -7,3 +7,30 @@ section{padding-top:35px;}
 .carousel-indicators .active{
   background-color: #0aa7b6;
 }
+
+/* Context */
+.top-band:before{
+  content: '';
+  z-index: 0;
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/dotted-desk2.png) no-repeat center center;
+  background-size: cover;
+  height: 180px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.top-band{
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0;
+  background: #E07D28;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#E07D28),color-stop(100%,#0AA7B6));
+  background: -webkit-linear-gradient(top,#E07D28 0,#0AA7B6 100%);
+  background: linear-gradient(to bottom,#E07D28 0,#0AA7B6 100%);
+}
+.bottom-band{
+  background-color: #eee;
+  height: 400px;
+}
