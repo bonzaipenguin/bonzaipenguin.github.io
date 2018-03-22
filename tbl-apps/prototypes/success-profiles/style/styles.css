@@ -17,6 +17,7 @@ h3{
   margin: 0 10px;
   position: relative;
   cursor: pointer;
+  margin-bottom: 25px;
 }
 .bio{
   width: 250px;
@@ -47,8 +48,8 @@ h3{
   background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/julie-bornstein.jpg) no-repeat top center;
   background-size: cover;
 }
-.bio.judy>.headshot{
-  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/judy-estrin.jpg) no-repeat top center;
+.bio.mauria>.headshot{
+  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/mauria.png) no-repeat top center;
   background-size: cover;
 }
 .bio.christy>.headshot{
@@ -86,3 +87,4 @@ h3{
   width: 200px;
   margin: 15px auto;
 }
+.bio.mauria + .logo{width:160px;}
