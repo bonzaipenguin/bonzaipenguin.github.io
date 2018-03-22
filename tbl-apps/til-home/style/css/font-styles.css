@@ -72,6 +72,10 @@ a:hover, a:active, a:focus{
 }
 
 /* WEIGHTS */
+.light{
+  font-weight:300;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
 .medium{
   font-weight:600;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;

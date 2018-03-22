@@ -163,16 +163,23 @@ section.splash {
 .inv-comm{
   height:120px;
   width:120px;
-  float:left;
+  border-radius: 50%;
+  display: inline-block;
   position:relative;
+  margin: 5px;
+  overflow: hidden;
+  cursor:pointer;
 }
+.invest-img{transition: all 300ms ease-in-out;}
+.invest-img.blur{filter: blur(5px);}
 .inv-comm .overlay{
   position:absolute;
   top:0;
   left:0;
   width:120px;
   height:120px;
-  background:rgba(0,0,0,0.6);
+  background:#000000;
+  opacity: 0;
   border-radius:50%;
 }
 .overlay .context{
