@@ -2,16 +2,18 @@ section{padding-top:35px;}
 
 /* Carousel */
 .carousel-indicators li{
-  background-color: rgba(10, 167, 182,0.5);
+  background-color: rgba(10, 167, 182,0.15);
 }
 .carousel-indicators .active{
-  background-color: #0aa7b6;
+  /* background-color: #0aa7b6; */
+  background-color: rgba(10, 167, 182,0.25);
 }
 
 /* Context */
 .link{
-  padding: 25px;
+  padding: 25px 0;
 }
+.link a{font-weight: 400;}
 .top-band:before{
   content: '';
   z-index: 0;
