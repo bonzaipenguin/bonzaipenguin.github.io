@@ -2,10 +2,10 @@ define(['jquery','model'], function($,model) {
 
 	var investors = {
 		ui:$('<section class="row gray investors"></section>'),
-		vcList:$('<div class="col-xl-4 offset-xl-2 col-sm-6"></div>'),
-		det:$('<div class="col-xl-6 col-5"></div>'),
-		people:$('<div class="col-sm-12"></div>'),
-		firms:$('<div class="col-sm-12"></div>'),
+		cont:$('<div class="col-12"></div>'),
+		row:$('<div class="row"></div>'),
+		vcList:$('<div class="col-sm-6"></div>'),
+		det:$('<div class="col-xl-6 col-5 description"></div>'),
 		vcIMG:function(type,pic,name,position){
 			var item = $('<div class="inv-comm" data-type="'+type+'"></div>');
 			var pic = $('<div class="invest-img"><img src="'+pic+'" class="img-fluid"/></div>')
@@ -32,7 +32,7 @@ define(['jquery','model'], function($,model) {
 		tagline:$('<h5>'+model.investor.subtitle+'</h5>'),
 		body:$('<p>'+model.investor.copy+'</p>')
 	};
-	investors.ui.append(investors.vcList.append(investors.people).append(investors.firms)).append(investors.det);
+	investors.ui.append(investors.cont.append(investors.row.append(investors.vcList).append(investors.det)));
 	model.investor.community.forEach(function(i){
 		investors.vcList.append(new investors.vcIMG(i.type,i.pic,i.name,i.position));
 	});

@@ -160,13 +160,16 @@ section.splash {
 
 
 /* INVESTOR LAYER */
+.investors>.col-12 {
+  padding: 0 50px;
+}
 .inv-comm{
-  height:120px;
-  width:120px;
+  height: 160px;
+  width: 160px;
+  padding: 5px;
   border-radius: 50%;
   display: inline-block;
   position:relative;
-  margin: 5px;
   overflow: hidden;
   cursor:pointer;
 }
@@ -204,7 +207,8 @@ section.splash {
 }
 
 /* BENEFIT LAYER */
-
+.benefit-list{padding:50px 50px 0;}
+.stat{padding: 15px 30px}
 
 /* FOOTER */
 footer{

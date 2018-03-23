@@ -52,13 +52,13 @@ var model = {
 		subtitle:'In a community driven platform for investors',
 		copy:'theInvestlist is a platform for male and female tech leaders to recommend, discover and invest in outstanding female-led startups'
 	},
-	benefits:{
+	benefit:{
 		title:'benefits for investors and startups',
 		subtitle:'Scaling high quality sourcing and removing gatekeepers that keep women out',
 		coList:[
-			{stat:'Experienced Investors', context:'Scales up pipeline of female-led startups beyond existing small, informal networks Increases efficiency of prospecting process'},
-			{stat:'Female Founders', context:'Increases direct exposure to potential investors by removing gatekeepers that keep women out of VC mix'},
-			{stat:'Inexperienced Investors', context:'Trusted investor endorsements provide reassurance to spur more investment activity'}
+			{stat:'Experienced Investors', context:'Scales up pipeline of female-led startups beyond existing small, informal networks Increases efficiency of prospecting&nbsp;process'},
+			{stat:'Female Founders', context:'Increases direct exposure to potential investors by removing gatekeepers that keep women out of VC&nbsp;mix'},
+			{stat:'Inexperienced Investors', context:'Trusted investor endorsements provide reassurance to spur more investment&nbsp;activity'}
 		]
 	},
 };
