@@ -38,10 +38,10 @@ define(['jquery'], function($) {
 			var i5 = $('<li>A Private Board, or</li>');
 			var i6 = $('<li>A Non-Profit Board</li>');
 
-			var a1 = $('<div class="form-group col-sm-6"><label for="entry.1979856146">First Name</label><input class="form-control" type="text" name="entry.1979856146"></div>');
-			var a2 = $('<div class="form-group col-sm-6"><label for="entry.2036822264">Last Name</label><input class="form-control" type="text" name="entry.2036822264"></div>');
-			var a3 = $('<div class="form-group col-sm-6"><label for="entry.914674720">Email Address</label><input class="form-control" type="email" name="entry.914674720"></div>')
-			var a4 = $('<div class="form-group col-sm-6"><label for="entry.260799283">Location</label><input class="form-control" type="text" name="entry.260799283"></div>');
+			var a1 = $('<div class="form-group col-sm-6"><label for="entry.1979856146" class="required">First Name</label><input class="form-control" type="text" name="entry.1979856146" required></div>');
+			var a2 = $('<div class="form-group col-sm-6"><label for="entry.2036822264" class="required">Last Name</label><input class="form-control" type="text" name="entry.2036822264" required></div>');
+			var a3 = $('<div class="form-group col-sm-6"><label for="entry.914674720" class="required">Email Address</label><input class="form-control" type="email" name="entry.914674720" required></div>')
+			var a4 = $('<div class="form-group col-sm-6"><label for="entry.260799283" class="required">Location</label><input class="form-control" type="text" name="entry.260799283" required></div>');
 
 			item.append(title).append(sub).append(exp1.append(list1)).append(exp2.append(list2)).append(a1).append(a2).append(a3).append(a4);
 			list1.append(i1).append(i2).append(i3);
