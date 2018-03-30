@@ -53,7 +53,7 @@ h3{
   background-size: cover;
 }
 .bio.amy>.headshot{
-  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/christy-wyatt.jpg) no-repeat top center;
+  background: url(https://www.accompany.com/wp-content/uploads/Amy-Chang-First-Round-Capital.jpg) no-repeat top center;
   background-size: cover;
 }
 .headshot.blur{
@@ -90,4 +90,8 @@ h3{
 .bio.mauria + .logo{
   width:160px;
   padding-top: 10px;
+}
+.bio.amy + .logo {
+  width: 150px;
+  margin-top: 10px;
 }
