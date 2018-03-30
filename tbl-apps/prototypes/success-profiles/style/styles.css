@@ -45,7 +45,7 @@ h3{
   background-size: cover;
 }
 .bio.belinda>.headshot{
-  background: url(https://dtlk3t7g5mpz3.cloudfront.net/images/profile-pics/julie-bornstein.jpg) no-repeat top center;
+  background: url(https://pics.paypal.com/00/s/Nzg1NDdjODEtYzUwMy00M2MwLTgxNDktNTRjZGU4YzRkYjNh/file.JPG) no-repeat top center;
   background-size: cover;
 }
 .bio.mauria>.headshot{
@@ -87,4 +87,7 @@ h3{
   width: 200px;
   margin: 15px auto;
 }
-.bio.mauria + .logo{width:160px;}
+.bio.mauria + .logo{
+  width:160px;
+  padding-top: 10px;
+}
