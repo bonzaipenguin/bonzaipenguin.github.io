@@ -2,10 +2,10 @@ define(['jquery','model'], function($,model) {
 	var splash = {
 		ui:$('<div class="col-sm-12 col-xs-12 splash"></div>'),
 		content:$('<div class="col-sm-8 col-xs-12 content"></div>'),
-		callOut:$('<h1 class="col-sm-12 light-accent center">'+model.hook+'</h1>'),
+		callOut:$('<h1 class="col-sm-12 gray center">'+model.hook+'</h1>'),
 		btngrp:$('<div class="col-sm-12 cta-btns center"></div>'),
 		cta:function(name,url){
-			var item = $('<a href="'+url+'" class="btn btn-primary" target="_self">'+name+'</a>');
+			var item = $('<a href="'+url+'" class="btn btn-primary">'+name+'</a>');
 
 			return item;
 		}
