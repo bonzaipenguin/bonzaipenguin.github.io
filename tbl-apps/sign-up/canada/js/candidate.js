@@ -20,30 +20,6 @@ define(['jquery'], function($) {
 
 			return item;
 		},
-		boardInfo:function(){
-			var item = $('<div class="col-sm-12 form-group info"></div>');
-			var title = $('<h3 class="blue">Your Board Experience</h3>');
-			var sub = $('<h5 class="sub-title">We suggest, though it\'s not required, that candidate meet one of the below criteria:</h5>');
-			var b1 = $('<div class="col-md-6 col-sm-12"></div>');
-			var b2 = $('<div class="col-md-4 col-md-offset-2 col-sm-12"></div>');
-			var qualList = $('<ul></ul>');
-			var qual1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
-			var qual2 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
-			var qual3 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
-			var qual4 = $('<li>Directors at companies with $500m+ revenue</li>');
-			var cta = $('<h5 class="required">Click all that apply:</h5>');
-			var a1 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.298290465"><input class="form-check-input" type="checkbox" name="entry.298290465" value="Public">Public board</label></div>');
-			var a2 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.298290465"><input class="form-check-input" type="checkbox" name="entry.298290465" value="Private">Private board</label></div>');
-			var a3 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.298290465"><input class="form-check-input" type="checkbox" name="entry.298290465" value="Advisory">Advisory board</label></div>');
-			var a4 = $('<div class="form-check col-sm-12"><label class="form-check-label" for="entry.298290465"><input class="form-check-input" type="checkbox" name="entry.298290465" value="Non-Profit">Non-Profit board</label></div>');
-
-			item.append(title).append(b1).append(b2);
-			b1.append(sub).append(qualList);
-			b2.append(cta).append(a1).append(a2).append(a3).append(a4);
-			qualList.append(qual1).append(qual2).append(qual3).append(qual4);
-
-			return item;
-		},
 		endorserInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Endorser</h3>');
@@ -100,7 +76,7 @@ define(['jquery'], function($) {
 		}
 	};
 	candidate.ui.append(candidate.form);
-	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.boardInfo).append(candidate.endorserInfo).append(candidate.endBoard).append(candidate.endo).append(candidate.sub);
+	candidate.form.append(candidate.pageTitle).append(candidate.basicInfo).append(candidate.endorserInfo).append(candidate.endBoard).append(candidate.endo).append(candidate.sub);
 
 
 	return candidate;
