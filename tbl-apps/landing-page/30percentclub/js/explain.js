@@ -3,17 +3,17 @@ define(['jquery','model'], function($,model) {
 		ui:$('<div class="col-sm-12 light-bg info"></div>'),
 		container:$('<div class="col-sm-12 info-grp"></div>'),
 		deetsLG:function(name,info,url,link){
-			var item = $('<div class="large hidden-md-down"></div>');
+			var item = $('<div class="large visible-lg-inline-block"></div>');
 			var bar = $('<div class="primary-dark-bg"></div>');
 			var head = $('<h3 class="primary-dark">'+name+'</h3>');
-			var copy = $('<p class="primary-dark">'+info+'</p>');
+			var copy = $('<p>'+info+'</p>');
 			var link = $('<a href="'+url+'">'+link+'</a>');
 			item.append(bar).append(head).append(copy).append(link);
 
 			return item;
 		},
 		deetsSM:function(name,info,url,link){
-			var item = $('<div class="small col-sm-12 hidden-lg-up"></div>');
+			var item = $('<div class="small col-sm-12 hidden-lg"></div>');
 			var head = $('<h3 class="primary-dark">'+name+'</h3>');
 			var copy = $('<p class="primary-dark">'+info+'</p>');
 			var link = $('<a href="'+url+'">'+link+'</a>');

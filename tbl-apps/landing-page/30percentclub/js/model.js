@@ -9,7 +9,7 @@ var model = {
     {name:'ENDORSE WOMEN',url:'https://theboardlist.com/30percent-application-e'},
     {name:'DISCOVER WOMEN',url:'https://theboardlist.com/30percent-application-s'}
   ],
-  tagline:'The U.S. 30% Club is partnering with theBoardlist to promote its network to companies searching for board candidates.',
+  tagline:'The U.S. 30% Club is partnering with theBoardlist to promote its network to companies searching for board&nbsp;candidates.',
   desc:[
     {name:'GET DISCOVERED',info:'Women nominated to theBoardlist have professionally pre-prepared, customizable board bios on&nbsptheBoardlist.',link:'Update Your Board Profile',url:''},
     {name:'ENDORSE',info:'Individuals with board experience are eligible to become Endorsing Members of theBoardlist and nominate board-ready&nbspwomen.',link:'Recommend Board Candidates',url:''},
@@ -17,7 +17,7 @@ var model = {
   ],
   learning:[
     {name:'How theBoardlist Works',info:'theBoardlist is a platform for leaders in their industries to nominate women for all stages of company boards. Once a woman is nominated, she\'s discoverable by companies searching for candidates for their open board&nbspseats.',link:'Learn&nbspMore&nbspAbout&nbsptheBoardlist',url:'https://theboardlist.com/'},
-    {name:'About the The U.S. 30% Club',info:'The U.S. 30% Club aims to develop a diverse pool of talent for all businesses through the efforts of its Chair and CEO members who are committed to better gender balance at all levels of their organisations.',link:'Learn More About the U.S. 30% Club',url:'https://us.30percentclub.org/'}  //Co-Branding Organization
+    {name:'About the The U.S. 30% Club',info:'The U.S. 30% Club aims to develop a diverse pool of talent for all businesses through the efforts of its Chair and CEO members who are committed to better gender balance at all levels of&nbsp;their&nbsp;organisations.',link:'Learn More About&nbsp;the&nbsp;U.S.&nbsp;30%&nbsp;Club',url:'https://us.30percentclub.org/'}  //Co-Branding Organization
   ]
 };
 return model;
