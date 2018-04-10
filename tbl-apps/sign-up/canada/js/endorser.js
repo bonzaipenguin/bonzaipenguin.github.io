@@ -11,9 +11,9 @@ define(['jquery'], function($) {
 			var sub1 = $('<h6 class="sub-title">Endorsing Members must have experience serving on a public, private, or non-profit board</h6>');
 			var sub2 = $('<h6 class="sub-title italic">and must meet one of the below criteria:</h6>');
 			var qList = $('<ul></ul>');
-			var qual1 = $('<li>A Public Board</li>');
-			var qual2 = $('<li>A Private Board, or</li>');
-			var qual3 = $('<li>A Non-Profit Board</li>');
+			var qual1 = $('<li>CEO or C-suite at a company with at least one round of institutional funding</li>');
+			var qual2 = $('<li>Seed, VC, or private equity investor, or</li>');
+			var qual3 = $('<li>Influencer, thought leader, or domain expert in their industry</li>');
 			var a1 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.454116553">First Name</label><input class="form-control" type="text" name="entry.454116553" required></div>');
 			var a2 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.1041849810">Last Name</label><input class="form-control" type="text" name="entry.1041849810" required></div>');
 			var a3 = $('<div class="form-group col-sm-6 required"><label class="required" for="entry.637252194">City</label><input class="form-control" type="text" name="entry.637252194" required></div>');
@@ -67,8 +67,8 @@ define(['jquery'], function($) {
 			var list = $('<ul></ul>');
 			var i1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
 			var i2 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
-			var i3 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
-			var i4 = $('<li>Directors at companies with $500m+ revenue</li>');
+			var i3 = $('<li>CEO or C-suite (VP+) at a company with $25m+ annual revenue</li>');
+			var i4 = $('<li>Director level and above at a company with $500m+ annual revenue</li>');
 
 			var a1 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.1301862767">First Name</label><input class="form-control" type="text" name="entry.1301862767" required></div>');
 			var a2 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.30915103">Last Name</label><input class="form-control" type="text" name="entry.30915103" required></div>');
