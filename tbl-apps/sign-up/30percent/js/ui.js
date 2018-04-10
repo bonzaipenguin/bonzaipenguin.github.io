@@ -1,4 +1,4 @@
-define(['jquery','header','candidate','endorser','searcher','confirmation'], function($,header,candidate,endorser,searcher,confirmation) {
+define(['jquery','header','endorser','searcher','confirmation'], function($,header,endorser,searcher,confirmation) {
 
 	var ui = {
 		ui: $('<section class="container-fluid"></section>'),
@@ -7,7 +7,7 @@ define(['jquery','header','candidate','endorser','searcher','confirmation'], fun
 	};
 	ui.ui.append(ui.headerRow).append(ui.mainRow);
 	ui.headerRow.append(header.ui);
-	ui.mainRow.append(candidate.ui);
+	ui.mainRow.append(searcher.ui);
 	ui.mainRow.css({'padding-top':'24px'});
 
 	return ui;

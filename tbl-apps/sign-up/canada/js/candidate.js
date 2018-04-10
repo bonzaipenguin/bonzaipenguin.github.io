@@ -7,6 +7,14 @@ define(['jquery'], function($) {
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
+
+			var exp = $('<div class=""><h6 class="sub-title">Candidates most likely to match with board opportunities on theBoardlist are often one of the following:</h6><div>');
+			var list = $('<ul></ul>');
+			var i1 = $('<li>Influencer, thought leader, or domain expert in her industry</li>');
+			var i2 = $('<li>CEO or Founder of a company with at least $5m+ revenue</li>');
+			var i3 = $('<li>CEO, C-suite (or VP+) at companies with $25m+ revenue</li>');
+			var i4 = $('<li>Directors at companies with $500m+ revenue</li>');
+
 			var a1 = $('<div class="form-group col-sm-6 required"><label for="entry.1898572176" class="required">First Name</label><input class="form-control" type="text" name="entry.1898572176" required></div>');
 			var a2 = $('<div class="form-group col-sm-6 required"><label for="entry.170930578" class="required">Last Name</label><input class="form-control" type="text" name="entry.170930578" required></div>');
 			var a3 = $('<div class="form-group col-sm-6 required"><label for="entry.1773292258" class="required">City</label><input class="form-control" type="text" name="entry.1773292258" required></div>');
@@ -16,8 +24,8 @@ define(['jquery'], function($) {
 			var a7 = $('<div class="form-group col-sm-6 required"><label for="entry.1156557558" class="required">Current or Most Recent  Title</label><input class="form-control" type="text" name="entry.1156557558" required></div>');
 			var a8 = $('<div class="form-group col-sm-12 required"><label for="entry.1548485227" class="required">Personal Email Address</label><input class="form-control" type="email" name="entry.1548485227" required></div>');
 
-			item.append(title).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6).append(a7).append(a8);
-
+			item.append(title).append(exp.append(list)).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6).append(a7).append(a8);
+			list.append(i1).append(i2).append(i3);
 			return item;
 		},
 		endorserInfo:function(){
@@ -25,26 +33,19 @@ define(['jquery'], function($) {
 			var title = $('<h3 class="blue">Your Endorser</h3>');
 			var sub = $('<h5>Request a nomination from someone you know who meets theBoardlist\'s Endorser Member criteria.</h5>');
 
-			var exp1 = $('<div class=""><h6 class="sub-title italic">Endorsing Members must meet one of the below criteria:</h6></div>');
-			var list1 = $('<ul></ul>');
+			var exp = $('<div class=""><h6 class="sub-title">Endorsing Members must meet one of the below criteria:</h6></div>');
+			var list = $('<ul></ul>');
 			var i1 = $('<li>A CEO or C-suite of a company with at least one round of institutional funding</li>');
 			var i2 = $('<li>A seed, VC, or a private equity investor, or</li>');
 			var i3 = $('<li>An influencer, thought leader, or domain expert in their industry</li>');
-
-			var exp2 = $('<div class=""><h6 class="sub-title italic">And must have experience serving on:</h6></div>');
-			var list2 = $('<ul></ul>');
-			var i4 = $('<li>A Public Board</li>');
-			var i5 = $('<li>A Private Board, or</li>');
-			var i6 = $('<li>A Non-Profit Board</li>');
 
 			var a1 = $('<div class="form-group required col-sm-6"><label for="entry.761290795" class="required">First Name</label><input class="form-control" type="text" name="entry.761290795" required></div>');
 			var a2 = $('<div class="form-group required col-sm-6"><label for="entry.2127928222" class="required">Last Name</label><input class="form-control" type="text" name="entry.2127928222" required></div>');
 			var a3 = $('<div class="form-group required col-sm-6"><label for="entry.1256445527" class="required">Email Address</label><input class="form-control" type="email" name="entry.1256445527" required></div>')
 			var a4 = $('<div class="form-group required col-sm-6"><label for="entry.1198500359" class="required">Location</label><input class="form-control" type="text" name="entry.1198500359" required></div>');
 
-			item.append(title).append(sub).append(exp1.append(list1)).append(exp2.append(list2)).append(a1).append(a2).append(a3).append(a4);
-			list1.append(i1).append(i2).append(i3);
-			list2.append(i4).append(i5).append(i6);
+			item.append(title).append(sub).append(exp.append(list)).append(a1).append(a2).append(a3).append(a4);
+			list.append(i1).append(i2).append(i3);
 			return item;
 		},
 		endBoard:function(){

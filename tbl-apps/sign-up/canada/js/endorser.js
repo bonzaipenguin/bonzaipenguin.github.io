@@ -8,16 +8,12 @@ define(['jquery'], function($) {
 		basicInfo:function(){
 			var item = $('<div class="col-sm-12 info"></div>');
 			var title = $('<h3 class="blue">Your Basic Info</h3>');
-			var sub1 = $('<h6 class="sub-title italic">Endorsing Members must meet one of the below criteria:</h6>');
-			var sub2 = $('<h6 class="sub-title italic">And must have experience serving on:</h6>');
-			var qL1 = $('<ul></ul>');
-			var qL2 = $('<ul></ul>');
-			var qual1 = $('<li>A CEO or C-suite of a company with at least one round of institutional funding</li>');
-			var qual2 = $('<li>A seed, VC, or a private equity investor, or</li>');
-			var qual3 = $('<li>An influencer, thought leader, or domain expert in their industry</li>');
-			var qual4 = $('<li>A Public Board</li>');
-			var qual5 = $('<li>A Private Board, or</li>');
-			var qual6 = $('<li>A Non-Profit Board</li>');
+			var sub1 = $('<h6 class="sub-title">Endorsing Members must have experience serving on a public, private, or non-profit board</h6>');
+			var sub2 = $('<h6 class="sub-title italic">and must meet one of the below criteria:</h6>');
+			var qList = $('<ul></ul>');
+			var qual1 = $('<li>A Public Board</li>');
+			var qual2 = $('<li>A Private Board, or</li>');
+			var qual3 = $('<li>A Non-Profit Board</li>');
 			var a1 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.454116553">First Name</label><input class="form-control" type="text" name="entry.454116553" required></div>');
 			var a2 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.1041849810">Last Name</label><input class="form-control" type="text" name="entry.1041849810" required></div>');
 			var a3 = $('<div class="form-group col-sm-6 required"><label class="required" for="entry.637252194">City</label><input class="form-control" type="text" name="entry.637252194" required></div>');
@@ -27,9 +23,8 @@ define(['jquery'], function($) {
 			var a7 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.1331327338">Current or Most Recent Company</label><input class="form-control" type="text" name="entry.1331327338" required></div>');
 			var a8 = $('<div class="form-group required col-sm-6"><label class="required" for="entry.1693041106">Current or Most Recent Title</label><input class="form-control" type="text" name="entry.1693041106" required></div>');
 
-			item.append(title).append(sub1).append(qL1).append(sub2).append(qL2).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6).append(a7).append(a8);
-			qL1.append(qual1).append(qual2).append(qual3);
-			qL2.append(qual4).append(qual5).append(qual6);
+			item.append(title).append(sub1).append(sub2).append(qList).append(a1).append(a2).append(a3).append(a4).append(a5).append(a6).append(a7).append(a8);
+			qList.append(qual1).append(qual2).append(qual3);
 
 			return item;
 		},
