@@ -1,12 +1,8 @@
 /* COLORS */
-.blue{color:#2E3650;}
-.blue-bg{background:#2E3650;}
-.red{color:#E54237;}
-.red-bg{background:#E54237;}
-.gray{color:#979FA8;}
-.gray-bg{background:#979FA8;}
-.light{color:#F6F6F6;}
-.light-bg{background:#F6F6F6;}
+.blue{color:#1A1A49;}
+.red{color:#D0112B;}
+.red-bg{background:#D0112B;}
+.light-bg{background:#EAEBEC;}
 
 /* BUTTONS */
 .btn.btn-primary{
