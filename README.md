@@ -1,6 +1,10 @@
 ### What's the size of this?
-- 3 case studies from KQED
-- 1 case study from Marigold
+- 2 case studies from KQED
+    - KQED FM
+    - Youth Media Challenge
+- 2 case studies from Marigold
+    - Journeys Redesign
+    - Push Notification Campaign Workflow
 
 ### What's left to be done
 - Landing page
