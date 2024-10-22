@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './index.css';
 import Root from "./routes/root";
+import App from './App';
 
 const router = createBrowserRouter([
   {
@@ -17,5 +18,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <App />
   </StrictMode>,
 )
