@@ -7,6 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
 
 
 export default function Root() {
@@ -43,6 +44,16 @@ export default function Root() {
           </Toolbar>
           <List>
             {['Journeys', 'KQED FM', 'Rich Push & SMS Workflow','Scheduled Journeys'].map((text) => (
+              <ListItem key={text} disablePadding>
+                <ListItemButton>
+                  <ListItemText primary={text} />
+                </ListItemButton>
+              </ListItem>
+            ))}
+          </List>
+          <Divider/>
+          <List>
+            {['About Me', 'Résumé / CV'].map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
                   <ListItemText primary={text} />
