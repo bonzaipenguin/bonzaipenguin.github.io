@@ -66,7 +66,7 @@ function ResponsiveDrawer(props) {
           </Typography>
         </ListItemButton>
       </List>
-      <Divider />
+      {/* <Divider /> */}
       <List component="nav" aria-label="main case studies">
         <ListItemButton
           selected={selectedIndex === 1}
