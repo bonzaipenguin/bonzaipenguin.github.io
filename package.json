@@ -2,7 +2,7 @@
   "name": "jerushaholsinger",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bonzaipenguin.github.io/",
+  "homepage": "https://bonzaipenguin.github.io/bonzaipenguin.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
