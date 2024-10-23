@@ -55,7 +55,7 @@ function ResponsiveDrawer(props) {
               component="div"
               sx={{
                 mr: 2,
-                display: { xs: 'flex', md: 'flex' },
+                display: { xs: 'none', md: 'flex' },
                 fontFamily: 'josefin sans',
                 fontWeight: 700,
                 letterSpacing: '0.15rem',
@@ -140,6 +140,20 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
+          <Typography variant="h6"
+              noWrap
+              component="div"
+              sx={{
+                mr: 2,
+                display: { xs: 'flex', md: 'none' },
+                fontFamily: 'josefin sans',
+                fontWeight: 700,
+                letterSpacing: '0.15rem',
+                color: 'inherit',
+                textDecoration: 'none',
+              }}>
+            Jerusha Holsinger
+          </Typography>
         </Toolbar>
       </AppBar>
       <Box
