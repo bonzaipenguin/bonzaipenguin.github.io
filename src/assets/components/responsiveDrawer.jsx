@@ -48,6 +48,7 @@ function ResponsiveDrawer(props) {
         <ListItemButton
           selected={selectedIndex === 0}
           onClick={(event) => handleListItemClick(event, 0)}
+          sx={{display: { xs: 'none', md: 'flex' }}}
           id="home-link"
         >
           <Typography variant="h6"
