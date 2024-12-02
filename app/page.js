@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h1>Jerusha Holsinger</h1>
-        <h2>Designer, amateur photographer, coffee drinker</h2>
+        <h2>Designer, Amateur Photographer, Coffee Drinker</h2>
       </main>
       <footer className={styles.footer}>
         <Link href="/about-me">Who am I?</Link>
