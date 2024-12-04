@@ -20,8 +20,7 @@ export default function Home() {
         </p>
       </main>
       <footer className={styles.footer}>
-        <Link href="/">Home</Link>
-        <Link href="/about-me">Who am I?</Link>
+        <Link href="/">Jerusha Holsinger</Link>
         <Link href="/scheduled-journeys">Scheduled Journeys</Link>
         <Link href="/journeys-redesign">Journeys Redesign</Link>
         <Link href="/advanced-reporting">Advanced Reporting</Link>
