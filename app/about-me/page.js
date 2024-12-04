@@ -1,5 +1,5 @@
 'use client'
-import styles from "./about-styles.css";
+import styles from "../studies.module.css";
 import Link from 'next/link';
 
 export default function Home() {
