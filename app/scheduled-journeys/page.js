@@ -1,5 +1,5 @@
 'use client'
-import styles from "../study.module.css";
+import styles from "./scheduled-styles.css";
 import Link from 'next/link';
 
 export default function scheduledJourneys() {

@@ -19,7 +19,10 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: var(--font-geist-sans), Helvetica, Arial, sans-serif;
+  font-size: 1.025em;
+  letter-spacing: 0.1px;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

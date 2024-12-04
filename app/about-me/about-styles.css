@@ -119,6 +119,9 @@ a.secondary {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-weight: 700;
+  letter-spacing: 0.55px;
+  line-height: 1.4;
 }
 
 .footer img {

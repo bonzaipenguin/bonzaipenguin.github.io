@@ -1,5 +1,5 @@
 'use client'
-import styles from "../study.module.css";
+import styles from "./jdx-redesign.css";
 import Link from 'next/link';
 
 export default function Home() {
