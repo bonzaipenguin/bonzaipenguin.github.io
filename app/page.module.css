@@ -3,8 +3,8 @@
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
   
-    --button-primary-hover: #FFA500;
-    --button-secondary-hover: #FFA500;
+    --button-primary-hover: #F4511E;
+    --button-secondary-hover: #F4511E;
   
     display: grid;
     grid-template-rows: 20px 1fr 20px;
@@ -22,12 +22,12 @@
       --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
       --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
   
-      --button-primary-hover: #FFA500;
-      --button-secondary-hover: #FFA500;
+      --button-primary-hover: #F4511E;
+      --button-secondary-hover: #F4511E;
     }
   }
   .header{
-    border-bottom: 2px solid #FFA500;
+    border-bottom: 2px solid #F4511E;
     padding-bottom: 24px;
   }
   
@@ -52,12 +52,24 @@
     display: inline-block;
     padding-left: 0;
     padding-right: 32px;
-    border-right: 1px solid #FFA500;
+    border-right: 1px solid #F4511E;
   }
   .main li:not(:first-of-type){
     padding-left: 32px;
     border: none;
   }
+
+  a.primary {
+    background: var(--foreground);
+    color: var(--background);
+    gap: 8px;
+  }
+  
+  a.secondary {
+    border-color: var(--gray-alpha-200);
+    min-width: 180px;
+  }
+  
   
   .footer {
     grid-row-start: 3;
@@ -93,6 +105,7 @@
     .footer a:hover {
       text-decoration: underline;
       text-underline-offset: 4px;
+      /* border-color: var(--button-secondary-hover); */
     }
   }
   
