@@ -10,7 +10,7 @@ export default function Home() {
         <h2>Designer, Amateur Photographer, Coffee Drinker</h2>
       </header>
         <p>
-          I&apos;m a designer for a little over 10 years, who has worked at every size company from seed level to Fortune 500. I&apos;ve been the only designer and one of 30. To me, teamwork is key and the best idea always wins - which is usually a hybrid of all the ideas on the table.
+          I have over 10 years of design experience, having worked at companies ranging from startups to Fortune 500 corporations. I have experience as both a solo designer and part of a team of 30. Teamwork is essential, as great ideas often emerge from diverse perspectives.
         </p>
         <ul>
           <li><a href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</a></li>
