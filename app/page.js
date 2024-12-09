@@ -1,94 +1,28 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
+      <header className={styles.header}>
+        <h1>Jerusha Holsinger</h1>
+        <h2>Designer, Amateur Photographer, Coffee Drinker</h2>
+      </header>
+        <p>
+          I&apos;m a designer for a little over 10 years, who has worked at every size company from seed level to Fortune 500. I&apos;ve been the only designer and one of 30. To me, teamwork is key and the best idea always wins - which is usually a hybrid of all the ideas on the table.
+        </p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</a></li>
+          <li><a href="../public/resume_2024.pdf" target="_blank">Resume</a></li>
+        </ul>
       </main>
       <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        <Link href="/scheduled-journeys">Scheduled Journeys</Link>
+        <Link href="/journeys-redesign">Journeys Redesign</Link>
+        <Link href="/advanced-reporting">Advanced Reporting</Link>
+        <Link href="/push-notification">Rich Push Notification Workflow</Link>
+        <Link href="/kqed-fm">KQED FM</Link>
       </footer>
     </div>
   );
