@@ -12,10 +12,8 @@ export default function Home() {
         <p>
           I have over 10 years of design experience, having worked at companies ranging from startups to Fortune 500 corporations. I have experience as both a solo designer and part of a team of 30. Teamwork is essential, as great ideas often emerge from diverse perspectives.
         </p>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</a></li>
-          <li><a href="../public/resume_2024.pdf" target="_blank">Resume</a></li>
-        </ul>
+        <Link href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</Link>
+        <Link href="../public/resume_2024.pdf" target="_blank">Resume</Link>
       </main>
       <footer className={styles.footer}>
         <Link href="/scheduled-journeys">Scheduled Journeys</Link>
