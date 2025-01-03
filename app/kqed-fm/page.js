@@ -22,7 +22,6 @@ export default function Home() {
       <footer className={styles.footer}>
         <Link href="/">Jerusha Holsinger</Link>
         <Link href="/scheduled-journeys">Scheduled Journeys</Link>
-        <Link href="/journeys-redesign">Journeys Redesign</Link>
         <Link href="/advanced-reporting">Advanced Reporting</Link>
         <Link href="/push-notification">Rich Push Notification Workflow</Link>
       </footer>
