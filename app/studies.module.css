@@ -130,6 +130,12 @@ a.secondary {
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
+  .main a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: var(--button-secondary-hover);
+  }
+
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
@@ -143,6 +149,7 @@ a.secondary {
   .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
+    color: var(--button-secondary-hover);
   }
 }
 

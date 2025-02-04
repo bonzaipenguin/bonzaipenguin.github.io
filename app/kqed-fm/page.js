@@ -20,9 +20,8 @@ export default function Home() {
         </p>
       </main>
       <footer className={styles.footer}>
-        <Link href="/">Jerusha Holsinger</Link>
+        <Link href="/">About</Link>
         <Link href="/scheduled-journeys">Scheduled Journeys</Link>
-        <Link href="/advanced-reporting">Advanced Reporting</Link>
         <Link href="/push-notification">Rich Push Notification Workflow</Link>
       </footer>
     </div>

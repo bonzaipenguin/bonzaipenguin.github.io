@@ -20,8 +20,7 @@ export default function scheduledJourneys() {
         </p>
       </main>
       <footer className={styles.footer}>
-        <Link href="/">Jerusha Holsinger</Link>
-        <Link href="/advanced-reporting">Advanced Reporting</Link>
+        <Link href="/">About</Link>
         <Link href="/push-notification">Rich Push Notification Workflow</Link>
         <Link href="/kqed-fm">KQED FM</Link>
       </footer>
