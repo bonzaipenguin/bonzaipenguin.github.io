@@ -73,6 +73,19 @@
   font-weight: 600;
 }
 
+.pitch {
+  padding-bottom: 1em;
+}
+
+.pitch p {
+  margin-block-start: .5em;
+  margin-block-end: 1em;
+}
+
+.pitch b{
+  color: #F4511E;
+}
+
 .ctas {
   display: flex;
   gap: 16px;
@@ -126,6 +139,12 @@ a.secondary {
 
 .footer img {
   flex-shrink: 0;
+}
+
+.active{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--button-secondary-hover);
 }
 
 /* Enable hover only on non-touch devices */

@@ -63,7 +63,7 @@
 
   .main a:first-of-type{
     padding-right: 16px;
-    border-right: 2px solid var(--button-secondary-hover);
+    border-right: 2px solid var(--button-primary-hover);
   }
   .main a:not(:first-of-type){
     padding-left: 16px;
@@ -87,13 +87,19 @@
   .footer img {
     flex-shrink: 0;
   }
+
+  .active{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: var(--button-primary-hover);
+  }
   
   /* Enable hover only on non-touch devices */
   @media (hover: hover) and (pointer: fine) {
     .main a:hover{
       text-decoration: underline;
       text-underline-offset: 4px;
-      color: var(--button-secondary-hover);
+      color: var(--button-primary-hover);
     }
 
     a.primary:hover {
@@ -109,7 +115,7 @@
     .footer a:hover {
       text-decoration: underline;
       text-underline-offset: 4px;
-      color: var(--button-secondary-hover);
+      color: var(--button-primary-hover);
     }
   }
   

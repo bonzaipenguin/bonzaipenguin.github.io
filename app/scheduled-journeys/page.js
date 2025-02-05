@@ -9,6 +9,14 @@ export default function scheduledJourneys() {
         <h1>Scheduled Journeys</h1>
       </header>
       <main className={styles.main}>
+        <div className={styles.pitch}>
+          <p>
+            <b>Use Case:</b> A marketing team wants to reach a specific audience that changes constantly and needs a marketing journey that can manage many customers in many different places within the journey.
+          </p>
+          <p>
+            <b>Solution:</b> Use an event trigger—abandoning cart, , or large purchase, with personalized marketing campaign assets, that are ready to send when the individual customer reaches a specific step in the journey.
+          </p>
+        </div>
         <p>
           Subway tile dreamcatcher prism knausgaard migas. Coloring book DIY cloud bread hammock venmo literally. Activated charcoal twee tumeric, cloud bread fit tacos edison bulb af four loko chia crucifix. Chicharrones solarpunk shoreditch man braid.
         </p>
@@ -21,6 +29,9 @@ export default function scheduledJourneys() {
       </main>
       <footer className={styles.footer}>
         <Link href="/">About</Link>
+        <div className={styles.active}>
+          <Link href="/scheduled-journeys">Scheduled Journeys</Link>
+        </div>
         <Link href="/push-notification">Rich Push Notification Workflow</Link>
         <Link href="/kqed-fm">KQED FM</Link>
       </footer>

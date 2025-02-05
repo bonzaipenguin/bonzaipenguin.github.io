@@ -30,6 +30,9 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}>
+        <div className={styles.active}>
+          <Link href="/">About</Link>
+        </div>
         <Link href="/scheduled-journeys">Scheduled Journeys</Link>
         <Link href="/push-notification">Rich Push Notification Workflow</Link>
         <Link href="/kqed-fm">KQED FM</Link>
