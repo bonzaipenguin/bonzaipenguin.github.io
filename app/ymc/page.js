@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <Grid container spacing={3}>
           <Grid size={12}>
-              <Image src="/imgs/ymc/Challenge.png" alt="Example of a challenge" width={4000} height={3000} style={{objectFit: "cover"}}></Image>
+              <Image src="/imgs/ymc/Challenge.png" alt="Example of a challenge" width={800} height={600} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
@@ -27,7 +27,7 @@ export default function Home() {
             </p>
           </Grid>
           <Grid size={12}>
-            <Image src="/imgs/ymc/Submission.png" alt="Submission flow" width={4000} height={3000} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/ymc/Submission.png" alt="Submission flow" width={800} height={600} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
@@ -44,7 +44,7 @@ export default function Home() {
             </p>
           </Grid>
           <Grid size={12}>
-            <Image src="/imgs/ymc/AdvancedFilters.png" alt="Example of the advanced filters" width={4000} height={3000} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/ymc/AdvancedFilters.png" alt="Example of the advanced filters" width={800} height={600} style={{objectFit: "cover"}}></Image>
           </Grid>
         </Grid>
       </main>

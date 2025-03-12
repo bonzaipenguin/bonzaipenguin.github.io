@@ -13,7 +13,7 @@ export default function scheduledJourneys() {
       <main className={styles.main}>
         <Grid container spacing={3}>
           <Grid size={12}>
-            <Image src="/imgs/scheduled/Winback.png" alt="" width={5632} height={3200} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/scheduled/Winback.png" alt="" width={1408} height={800} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
@@ -24,7 +24,7 @@ export default function scheduledJourneys() {
             </p>
           </Grid>
           <Grid size={12}>
-            <Image src="/imgs/scheduled/ScheduledWizard.png" alt="" width={2816} height={1600} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/scheduled/ScheduledWizard.png" alt="" width={704} height={400} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
@@ -38,7 +38,7 @@ export default function scheduledJourneys() {
             </p>
           </Grid>
           <Grid size={12}>
-            <Image src="/imgs/scheduled/SegmentBuilderStates.png" alt="" width={2514} height={2108} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/scheduled/SegmentBuilderStates.png" alt="" width={628} height={527} style={{objectFit: "cover"}}></Image>
           </Grid>
         </Grid>
       </main>

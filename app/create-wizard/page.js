@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <Grid container spacing={3}>
           <Grid size={12}>
-            <Image src="/imgs/create/Create Journey Wizard.jpg" alt="New Journey Wizard" width={4096} height={1947} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/create/Create Journey Wizard.jpg" alt="New Journey Wizard" width={1024} height={486} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
