@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <Grid container spacing={3}>
           <Grid size={12}>
-            <Image src="/imgs/kqed/landing-page.png" alt="view of the live streaming player" width={500} height={500} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/kqed/landing-page.png" alt="view of the live streaming player" width={6000} height={4500} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
@@ -27,7 +27,7 @@ export default function Home() {
             </p>
           </Grid>
           <Grid size={12}>
-            <Image src="/imgs/kqed/screens.png" alt="variety of app views" width={500} height={500} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/kqed/screens.png" alt="variety of app views" width={6000} height={4500} style={{objectFit: "cover"}}></Image>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <p>
@@ -41,7 +41,7 @@ export default function Home() {
             </p>
           </Grid>
           <Grid size={12}>
-            <Image src="/imgs/kqed/screen-flow.png" alt="App screen flow" width={500} height={500} style={{objectFit: "cover"}}></Image>
+            <Image src="/imgs/kqed/screen-flow.png" alt="App screen flow" width={6500} height={4000} style={{objectFit: "cover"}}></Image>
           </Grid>
         </Grid>
       </main>
