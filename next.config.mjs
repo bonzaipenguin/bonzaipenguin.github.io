@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? '/bonzaipenguin.github.io/' : '',
-  basePath: isProd ? '/bonzaipenguin.github.io' : '',
+  // assetPrefix: isProd ? '/bonzaipenguin.github.io/' : '',
+  // basePath: isProd ? '/bonzaipenguin.github.io' : '',
   output: 'export'
 };
 
