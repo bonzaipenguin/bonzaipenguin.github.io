@@ -26,7 +26,7 @@ export default function Home() {
         </p>
         <div>
           <Link href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</Link>
-          <Link href="https://bonzaipenguin.github.io/resume_2024.pdf" target="_blank">Resume</Link>
+          <Link href="https://bonzaipenguin.github.io/resume_2025.pdf" target="_blank">Resume</Link>
         </div>
       </main>
       <footer className={styles.footer}>
