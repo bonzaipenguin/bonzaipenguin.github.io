@@ -43,13 +43,16 @@ export default function scheduledJourneys() {
         </Grid>
       </main>
       <footer className={styles.footer}>
-        <Link href="/">About</Link>
+        <div className={styles.caseStudies}>Case Studies</div>
         <div className={styles.active}>
           <Link href="/scheduled-journeys" className="active">Scheduled Journeys</Link>
         </div>
         <Link href="/kqed-fm">KQED FM</Link>
         <Link href="/ymc">Youth Media Challenge</Link>
-        <Link href="/create-wizard">New Journey Wizard</Link>
+        <div className={styles.about}>
+          <Link href="/">About</Link>
+        </div>
+        <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
       </footer>
     </div>
   );

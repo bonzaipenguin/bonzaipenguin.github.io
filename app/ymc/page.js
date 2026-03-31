@@ -49,13 +49,16 @@ export default function Home() {
         </Grid>
       </main>
       <footer className={styles.footer}>
-        <Link href="/">About</Link>
+        <div className={styles.caseStudies}>Case Studies</div>
         <Link href="/scheduled-journeys">Scheduled Journeys</Link>
         <Link href="/kqed-fm">KQED FM</Link>
         <div className={styles.active}>
           <Link href="/ymc" className="active">Youth Media Challenge</Link>
         </div>
-        <Link href="/create-wizard">New Journey Wizard</Link>
+        <div className={styles.about}>
+          <Link href="/">About</Link>
+        </div>
+        <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
       </footer>
     </div>
   );

@@ -1,5 +1,6 @@
 .page {
     --gray-rgb: 0, 0, 0;
+    --gray-alpha-300: rgba(var(--gray-rgb), 0.35);
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
   
@@ -62,11 +63,16 @@
   }
 
   .main a:first-of-type{
-    padding-right: 16px;
+    padding-right: 24px;
     border-right: 2px solid var(--button-primary-hover);
   }
   .main a:not(:first-of-type){
-    padding-left: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-right: 2px solid var(--button-primary-hover);
+  }
+  .main a:last-of-type{
+    border-right:none;
   }
 
   .footer {
@@ -86,6 +92,16 @@
   
   .footer img {
     flex-shrink: 0;
+  }
+
+  .about a {
+    border-left: 2px solid black;
+    padding-left: 24px;
+  } 
+
+  .footer .active{
+    padding-left: 24px;
+    border-left: 2px solid var(--button-primary-hover);
   }
 
   .active{
@@ -116,6 +132,11 @@
       text-decoration: underline;
       text-underline-offset: 4px;
       color: var(--button-primary-hover);
+    }
+
+    .footer .caseStudies{
+      font-weight: 700;
+      color: var(--gray-alpha-300)
     }
   }
   
