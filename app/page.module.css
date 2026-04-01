@@ -95,7 +95,7 @@
   }
 
   .about a {
-    border-left: 2px solid black;
+    border-left: 2px solid var(--button-primary-hover);
     padding-left: 24px;
   } 
 
