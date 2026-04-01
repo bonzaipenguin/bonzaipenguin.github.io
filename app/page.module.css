@@ -109,6 +109,10 @@
     text-underline-offset: 4px;
     color: var(--button-primary-hover);
   }
+  .footer .caseStudies{
+    font-weight: 700;
+    color: var(--gray-alpha-300)
+  }
   
   /* Enable hover only on non-touch devices */
   @media (hover: hover) and (pointer: fine) {
@@ -134,10 +138,6 @@
       color: var(--button-primary-hover);
     }
 
-    .footer .caseStudies{
-      font-weight: 700;
-      color: var(--gray-alpha-300)
-    }
   }
   
   @media (max-width: 600px) {
