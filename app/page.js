@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Link from "next/link";
+import SiteNav from "./components/siteNav";
 
 export default function Home() {
   return (
@@ -10,19 +11,16 @@ export default function Home() {
         <h2>Designer, Amateur Photographer, Professional Coffee Drinker</h2>
       </header>
         <p>
-          I’m a design nerd who believes great products start with genuine empathy.
+          I’m a design nerd who believes great products start with real empathy. My work has always been about getting inside users’ heads—understanding their frustrations, workflows, and the needs they don’t always articulate.
         </p>
         <p>
-          My career has been about getting inside users’ heads—understanding their pains, frustrations, the ways they work, and hidden needs.
+          I’ve designed for teams trying to grow their businesses, audiences looking to better understand the world around them, and students finding their voice on topics that matter. Across all of it, I stay focused on solving real problems for real people.
         </p>
         <p>
-          Whether I’m working with teams trying to grow their business and reach their customers, people who want to understand local and national news better, or students getting their voices heard about topics that mean the most to them in creative ways, I’m laser-focused on solving real problems for real people.
+          I lead with listening and follow with design. Whether it’s simplifying complex enterprise software or shaping new product experiences from the ground up, my goal is always the same: turn complexity into clarity and create tools that genuinely improve people’s lives.
         </p>
         <p>
-          My approach is all about listening first and designing second. I’ve transformed complex enterprise software from intimidating technical mazes into intuitive tools that make people’s work lives easier and more meaningful.
-        </p>
-        <p>
-          Reach out if that sounds good.  I’d love to help you design your next product.
+          If that resonates, let’s talk.
         </p>
         <div>
           <Link href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</Link>
@@ -30,16 +28,7 @@ export default function Home() {
           <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
         </div>
       </main>
-      <footer className={styles.footer}>
-        <div className={styles.caseStudies}>Case Studies</div>
-        <Link href="/scheduled-journeys">Scheduled Journeys</Link>
-        <Link href="/kqed-fm">KQED FM</Link>
-        <Link href="/ymc">Youth Media Challenge</Link>
-        <div className={styles.active}>
-          <Link href="/">About</Link>
-        </div>
-        <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
-      </footer>
+      <SiteNav />
     </div>
   );
 }
