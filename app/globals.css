@@ -36,9 +36,26 @@ h1{
   line-height: 1.9;
 }
 
+h4{
+  line-height: 1.6;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+ul{
+  padding-bottom: 24px;
+}
+
+li {
+  line-height: 1.6;
+  list-style-position: inside;
+}
+
+li > p{
+  display: inline !important;
 }
 
 .MuiGrid2-root p {

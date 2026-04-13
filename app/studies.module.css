@@ -66,6 +66,14 @@
   margin-bottom: 8px;
 }
 
+ul.listPad0 {
+  padding-bottom: 0;
+}
+
+.nestedUL{
+  padding-left: 24px;
+}
+
 .main code {
   font-family: inherit;
   background: var(--gray-alpha-100);
@@ -79,17 +87,15 @@
   height:auto;
 }
 
-.pitch {
-  padding-bottom: 1em;
+.sectionHead{
+  border-top: 2px solid;
+  border-color: var(--gray-alpha-200);
+  margin-bottom: 20px;
+  padding-top: 32px;
 }
 
-.pitch p {
-  margin-block-start: .5em;
-  margin-block-end: 1em;
-}
-
-.pitch b{
-  color: #F4511E;
+.designProcessSpacing{
+  padding-bottom: 24px;
 }
 
 .ctas {
@@ -126,6 +132,23 @@ a.primary {
 a.secondary {
   border-color: var(--gray-alpha-200);
   min-width: 180px;
+}
+/* Carousel */
+.carouselContainer {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carouselItem {
+  width: 100%;
+  flex-shrink: 0;
+}
+.carouselItem.hidden {
+  display: none;
+}
+.carouselItem.shown {
+  display: block;
 }
 
 .footer {
