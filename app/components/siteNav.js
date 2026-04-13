@@ -13,7 +13,7 @@ function SiteNav(){
             <Link href="/kqed-fm" className={pathname === '/kqed-fm' ? styles.active : styles.inactive}>KQED FM</Link>
             <Link href="/ymc" className={pathname === '/ymc' ? styles.active : styles.inactive}>Youth Media Challenge</Link>
             <div className={styles.about}>
-                <Link href="/">About</Link>
+                <Link href="/" className={pathname === '/' ? styles.active : styles.inactive}>About</Link>
             </div>
             <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
         </footer>
