@@ -7,11 +7,8 @@ import ProblemStatement from "../components/problemStatement";
 import MyRole from "../components/myRole";
 import SiteNav from "../components/siteNav";
 import Image from "next/image";
-import imageZoom from 'fast-image-zoom';
 
 import styles from "../studies.module.css";
-
-imageZoom();
 
 export default function scheduledJourneys() {
   return (
@@ -70,7 +67,6 @@ export default function scheduledJourneys() {
               width={1200}
               height={800}
               className={styles.fullWidthImg}
-              data-image-zoom-exceed="true"
             />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
@@ -187,7 +183,6 @@ export default function scheduledJourneys() {
                 width={1200}
                 height={800}
                 className={styles.fullWidthImg}
-                data-image-zoom-exceed="true"
               />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
