@@ -6,6 +6,7 @@ import StudyOverview from "../components/studyOverview";
 import ProblemStatement from "../components/problemStatement";
 import MyRole from "../components/myRole";
 import SiteNav from "../components/siteNav";
+import Image from "next/image";
 
 import styles from "../studies.module.css";
 
@@ -58,6 +59,15 @@ export default function scheduledJourneys() {
                 "Aligning with Product and Engineering across multiple systems",
                 "Driving clarity in a technically complex, evolving space"
               ]}
+            />
+          </Grid>
+          <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
+            <Image
+              src="/imgs/scheduled/SegmentBuilderStates.png"
+              alt="Segment Builder States"
+              width={1200}
+              height={800}
+              className={styles.fullWidthImg}
             />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
@@ -166,6 +176,15 @@ export default function scheduledJourneys() {
                 <li>Highlighted key system-level considerations for scaling the product</li>
               </ul>
             </div>
+          </Grid>
+          <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
+              <Image
+                src="/imgs/scheduled/ScheduledWizard.png"
+                alt="Scheduled Journey Wizard"
+                width={1200}
+                height={800}
+                className={styles.fullWidthImg}
+              />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Key Learnings</h2>

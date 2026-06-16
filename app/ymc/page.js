@@ -4,6 +4,7 @@ import PageTitle from "../components/pageTitle";
 import Carousel from '../components/carousel';
 import MyRole from "../components/myRole";
 import SiteNav from "../components/siteNav";
+import Image from 'next/image';
 
 import styles from "../studies.module.css";
 
@@ -61,6 +62,15 @@ export default function Home() {
             />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
+            <Image
+              src="/imgs/ymc/Submission.jpg"
+              alt="Submission Flow"
+              width={1200}
+              height={800}
+              className={styles.fullWidthImg}
+            />
+          </Grid>
+          <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Approach</h2>
             <div>
               <h2>1. Rapid Concepting & Validation</h2>
@@ -104,6 +114,15 @@ export default function Home() {
               </ul>
               <p>The <b>family experience was intentionally scoped for a later phase,</b> ensuring we shipped a strong MVP.</p>
             </div>
+          </Grid>
+          <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
+            <Image
+              src="/imgs/ymc/AdvancedFilters.jpg"
+              alt="Advanced Filters"
+              width={1200}
+              height={800}
+              className={styles.fullWidthImg}
+            />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Key Design Solutions</h2>

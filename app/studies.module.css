@@ -93,7 +93,14 @@ ul.listPad0 {
   margin-bottom: 20px;
   padding-top: 32px;
 }
-
+.fullWidthImg{
+  width:100%;
+  height:auto;
+  border-top: 2px solid;
+  border-color: var(--gray-alpha-200);
+  margin-bottom: 20px;
+  padding-top: 32px;
+}
 .designProcessSpacing{
   padding-bottom: 24px;
 }
