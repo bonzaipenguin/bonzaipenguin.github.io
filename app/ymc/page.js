@@ -5,8 +5,10 @@ import Carousel from '../components/carousel';
 import MyRole from "../components/myRole";
 import SiteNav from "../components/siteNav";
 import Image from 'next/image';
+import Zoom from 'react-medium-image-zoom';
 
 import styles from "../studies.module.css";
+import 'react-medium-image-zoom/dist/styles.css';;
 
 export default function Home() {
   return (
@@ -62,13 +64,15 @@ export default function Home() {
             />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
-            <Image
-              src="/imgs/ymc/Submission.jpg"
-              alt="Submission Flow"
-              width={1200}
-              height={800}
-              className={styles.fullWidthImg}
-            />
+            <Zoom>
+              <Image
+                src="/imgs/ymc/Submission.jpg"
+                alt="Submission Flow"
+                width={1200}
+                height={800}
+                className={styles.fullWidthImg}
+              />
+            </Zoom>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Approach</h2>
@@ -116,13 +120,15 @@ export default function Home() {
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
-            <Image
-              src="/imgs/ymc/AdvancedFilters.jpg"
-              alt="Advanced Filters"
-              width={1200}
-              height={800}
-              className={styles.fullWidthImg}
-            />
+            <Zoom>
+              <Image
+                src="/imgs/ymc/AdvancedFilters.jpg"
+                alt="Advanced Filters"
+                width={1200}
+                height={800}
+                className={styles.fullWidthImg}
+              />
+            </Zoom>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Key Design Solutions</h2>

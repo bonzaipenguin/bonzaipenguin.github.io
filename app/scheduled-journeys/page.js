@@ -7,8 +7,10 @@ import ProblemStatement from "../components/problemStatement";
 import MyRole from "../components/myRole";
 import SiteNav from "../components/siteNav";
 import Image from "next/image";
+import Zoom from 'react-medium-image-zoom';
 
 import styles from "../studies.module.css";
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function scheduledJourneys() {
   return (
@@ -61,13 +63,15 @@ export default function scheduledJourneys() {
             />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
-            <Image
-              src="/imgs/scheduled/SegmentBuilderStates.png"
-              alt="Segment Builder States"
-              width={1200}
-              height={800}
-              className={styles.fullWidthImg}
-            />
+            <Zoom>
+              <Image
+                src="/imgs/scheduled/SegmentBuilderStates.png"
+                alt="Segment Builder States"
+                width={1200}
+                height={800}
+                className={styles.fullWidthImg}
+              />
+            </Zoom>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Approach</h2>
@@ -177,13 +181,15 @@ export default function scheduledJourneys() {
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
+            <Zoom>
               <Image
                 src="/imgs/scheduled/ScheduledWizard.png"
-                alt="Scheduled Journey Wizard"
+                alt="Screenshots of the Scheduled Journey creation flow, showing the new entry point for creating scheduled journeys and the audience configuration steps."
                 width={1200}
                 height={800}
                 className={styles.fullWidthImg}
               />
+            </Zoom>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Key Learnings</h2>

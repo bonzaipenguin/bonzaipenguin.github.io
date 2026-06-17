@@ -5,8 +5,10 @@ import Carousel from '../components/carousel';
 import MyRole from "../components/myRole";
 import SiteNav from "../components/siteNav";
 import Image from 'next/image';
+import Zoom from 'react-medium-image-zoom';
 
 import styles from "../studies.module.css";
+import 'react-medium-image-zoom/dist/styles.css';
 
 
 export default function Home() {
@@ -65,13 +67,15 @@ export default function Home() {
             />
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
-            <Image
-              src="/imgs/kqed/screen-flow.png"
-              alt="A flow diagram showing the user journey through the redesigned KQED FM app, from opening the app to discovering content and listening to live radio."
-              width={1200}
-              height={800}
-              className={styles.fullWidthImg}
-            />
+            <Zoom>
+              <Image
+                src="/imgs/kqed/screen-flow.png"
+                alt="A flow diagram showing the user journey through the redesigned KQED FM app, from opening the app to discovering content and listening to live radio."
+                width={1200}
+                height={800}
+                className={styles.fullWidthImg}
+              />
+            </Zoom>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>Research & Discovery</h2>
@@ -131,13 +135,15 @@ export default function Home() {
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
-            <Image
-              src="/imgs/kqed/screens.png"
-              alt="Screenshots of the redesigned KQED FM app, showing the landing page, live radio player, and content discovery features."
-              width={1200}
-              height={800}
-              className={styles.fullWidthImg}
-            />
+            <Zoom>
+              <Image
+                src="/imgs/kqed/screens.png"
+                alt="Screenshots of the redesigned KQED FM app, showing the landing page, live radio player, and content discovery features."
+                width={1200}
+                height={800}
+                className={styles.fullWidthImg}
+              />
+            </Zoom>
           </Grid>
           <Grid size={{ xs: 12, md: 10 }} offset={{ md: 1 }}>
             <h2 className={styles.sectionHead}>The Solution</h2>
