@@ -3,4 +3,4 @@
 :HL["/_next/static/media/GeistVF-s.p.04dvp7dj03si8.woff","font",{"crossOrigin":"","type":"font/woff"}]
 :HL["/_next/static/chunks/0-wgc--o3~e2w.css","style"]
 :HL["/_next/static/chunks/0vgubf.7~vr-8.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"scheduled-journeys","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"tgLl13dWfDbT7Iy5OmJX5"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"scheduled-journeys","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"oJvVMe82SgMtzN1wHgQTQ"}
