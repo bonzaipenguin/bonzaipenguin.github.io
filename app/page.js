@@ -11,16 +11,16 @@ export default function Home() {
         <h2>Designer, Amateur Photographer, Professional Coffee Drinker</h2>
       </header>
         <p>
-          I’m a design nerd who believes great products start with real empathy. My work has always been about getting inside users’ heads—understanding their frustrations, workflows, and the needs they don’t always articulate.
+          I&apos;m a product designer who believes great products start with empathy. My work has always been about understanding how people think, where they get stuck, and what they need—even when they can&apos;t quite articulate it.
         </p>
         <p>
-          I’ve designed for teams trying to grow their businesses, audiences looking to better understand the world around them, and students finding their voice on topics that matter. Across all of it, I stay focused on solving real problems for real people.
+          I&apos;ve designed products for marketers growing their businesses, public media audiences discovering trustworthy information, and educators and students creating meaningful learning experiences. No matter the domain, I&apos;m driven by solving real problems for real people.
         </p>
         <p>
-          I lead with listening and follow with design. Whether it’s simplifying complex enterprise software or shaping new product experiences from the ground up, my goal is always the same: turn complexity into clarity and create tools that genuinely improve people’s lives.
+          I lead by listening, collaborating closely with cross-functional teams, and turning complexity into clarity. Whether I&apos;m simplifying enterprise workflows or building new products from the ground up, my goal is to create thoughtful, intuitive experiences that make people&apos;s work—and lives—a little better.
         </p>
         <p>
-          If that resonates, let’s talk.
+          If you&apos;re looking for someone who combines systems thinking, strategic product design, and a deep commitment to users, I&apos;d love to connect.
         </p>
         <div>
           <Link href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</Link>
