@@ -8,7 +8,6 @@ function SiteNav(){
     const pathname = usePathname();
     return(
         <footer className={styles.footer}>
-            <div className={styles.caseStudies}>Case Studies:</div>
             <Link href="/scheduled-journeys" className={pathname === '/scheduled-journeys' ? styles.active : styles.inactive}>Scheduled Journeys</Link>
             <Link href="/kqed-fm" className={pathname === '/kqed-fm' ? styles.active : styles.inactive}>KQED FM</Link>
             <Link href="/ymc" className={pathname === '/ymc' ? styles.active : styles.inactive}>Youth Media Challenge</Link>
