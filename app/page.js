@@ -25,7 +25,6 @@ export default function Home() {
         <div>
           <Link href="https://www.linkedin.com/in/jerushaholsinger" target="_blank">LinkedIn</Link>
           <Link href="https://jerushaholsinger.com/resume_2026.pdf" target="_blank">Resume</Link>
-          <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
         </div>
       </main>
       <SiteNav />

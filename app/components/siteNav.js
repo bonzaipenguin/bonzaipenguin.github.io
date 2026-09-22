@@ -15,7 +15,6 @@ function SiteNav(){
             <div className={styles.about}>
                 <Link href="/" className={pathname === '/' ? styles.active : styles.inactive}>About</Link>
             </div>
-            <Link href="https://jerushaholsinger.com/portfolio_2026.pdf" target="_blank">Portfolio</Link>
         </footer>
     );
 };
